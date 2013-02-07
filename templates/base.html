@@ -1,13 +1,32 @@
 <!doctype html>
 <html>
+
   <head>
-    <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon" />
-    <meta charset="utf-8">
-    <title>IT3S - {{ page.title or 'Instituto de Fomento à Tecnologia do Terceiro Setor' }}</title>
+
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon" />
+    <!--[if lt IE 9]> {# Le HTML5 shim, for IE6-8 support of HTML5 elements #}
+      <script src="{{ url_for('static', filename='lib/html5.js') }}"></script>
+    <![endif]-->
+    <title>IT3S - {{ page.title or gettext('Instituto de Fomento à Tecnologia do Terceiro Setor') }}</title>
+
   </head>
+
   <body>
-    <h1><a href="{{ url_for("root") }}">IT3S</a></h1>
+
+    <!-- HEADER -->
+    {% include('header.html') %}
+    <!-- /HEADER -->
+
+    <!-- CONTENT -->
     {% block content %}
     {% endblock content %}
+    <!-- /CONTENT -->
+
+    <!-- FOOTER -->
+    {% include('footer.html') %}
+    <!-- /FOOTER -->
+
   </body>
+
 </html>
