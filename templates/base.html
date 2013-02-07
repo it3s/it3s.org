@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon" />
+    <meta charset="utf-8">
+    <title>IT3S - {{ page.title or 'Instituto de Fomento à Tecnologia do Terceiro Setor' }}</title>
+  </head>
+  <body>
+    <h1><a href="{{ url_for("root") }}">IT3S</a></h1>
+    {% block content %}
+    {% endblock content %}
+  </body>
+</html>
