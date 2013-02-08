@@ -3,18 +3,17 @@
   <ul>
   {% for key, section in tree.get('pt_BR', {}).items() recursive %}
     {% if not key == 'index' %}
-    <li>
-    {% if not section.path and 'index' in section %}
-      {% with page = section['index'] %}
-      <a href="{{ url_for('page', path=remove_l10n_prefix(page.path)) }}">{{ page.title }}</a>
-      {% endwith %}
-    {% else %}
-    {{ key }}
-    {% endif %}
-    {% if not section.path %}
+      {% if not section.path and 'index' in section %}
+        {% with page = section['index'] %}
+        <li class="{% if not page.meta.get('menu', True) %}hidden{% endif %}">
+          <a href="{{ url_for('page', path=remove_l10n_prefix(page.path)) }}">{{ page.menu_title or page.title }}</a>
+        {% endwith %}
+      {% else %}
+      <li>
+        {{ key }}
+      {% endif %}
       <ul class="submenu">{{ loop(section.items()) }}</ul>
-    {% endif %}
-    </li>
+      </li>
     {% endif %}
   {% endfor %}
   </ul>

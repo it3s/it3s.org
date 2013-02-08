@@ -5,8 +5,10 @@ from __future__ import unicode_literals  # unicode by default
 import sys
 from collections import OrderedDict
 
+import markdown
+
 from flask import Flask
-from flask import render_template
+from flask import render_template, redirect, url_for
 from flaskext.babel import Babel
 from flask_flatpages import FlatPages
 from flask_frozen import Freezer
@@ -76,6 +78,15 @@ app.jinja_env.globals.update(remove_l10n_prefix=remove_l10n_prefix)
 
 # Structure helpers
 
+def render_markdown(text):
+    ''' Render Markdown text to HTML. '''
+    extensions = ['attr_list', 'headerid(forceid=False)']
+    print 'aaa'
+    return markdown.markdown(text, extensions)
+
+app.config['FLATPAGES_HTML_RENDERER'] = render_markdown
+
+
 def create_pages_tree(pages):
     ''' Create a tree to be used to render navigation menu and site map. '''
 
@@ -131,8 +142,19 @@ def root():
 @app.route('/<path:path>/')
 def page(path):
     ''' All pages from markdown files '''
+
+    # Get the page
     page = pages.get_or_404(add_l10n_prefix(path))
+
+    # Get custom template
     template = page.meta.get('template', 'page.html')
+
+    # Verify if need redirect
+    redirect_ = page.meta.get('redirect', None)
+    if redirect_:
+        return redirect(url_for('page', path=redirect_))
+
+    # Render the page
     return render_template(template, page=page, pages=pages, tree=tree)
 
 
