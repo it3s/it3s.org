@@ -60,6 +60,9 @@ header.main nav.main > ul > li {
   margin: 0px;
   padding: 0px;
 }
+header.main nav.main > ul > li.hidden {
+  display: none;
+}
 header.main nav.main > ul > li a {
   display: inline-block;
   width: 100%;
@@ -69,7 +72,8 @@ header.main nav.main > ul > li a {
   font-weight: bold;
   text-decoration: none;
 }
-header.main nav.main > ul > li a:hover {
+header.main nav.main > ul > li a:hover,
+header.main nav.main > ul > li a.active {
   border-top: 3px solid #f39200;
   color: black;
   background: #fee6c8;
