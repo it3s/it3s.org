@@ -1,0 +1,22 @@
+<nav class="main">
+
+  <ul>
+  {% for key, section in tree.get('pt_BR', {}).items() recursive %}
+    {% if not key == 'index' %}
+    <li>
+    {% if not section.path and 'index' in section %}
+      {% with page = section['index'] %}
+      <a href="{{ url_for('page', path=remove_l10n_prefix(page.path)) }}">{{ page.title }}</a>
+      {% endwith %}
+    {% else %}
+    {{ key }}
+    {% endif %}
+    {% if not section.path %}
+      <ul class="submenu">{{ loop(section.items()) }}</ul>
+    {% endif %}
+    </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+
+</nav>
