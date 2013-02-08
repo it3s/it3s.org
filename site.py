@@ -81,7 +81,6 @@ app.jinja_env.globals.update(remove_l10n_prefix=remove_l10n_prefix)
 def render_markdown(text):
     ''' Render Markdown text to HTML. '''
     extensions = ['attr_list', 'headerid(forceid=False)']
-    print 'aaa'
     return markdown.markdown(text, extensions)
 
 app.config['FLATPAGES_HTML_RENDERER'] = render_markdown

@@ -43,6 +43,7 @@ header.main nav.main {
 header.main nav.main > ul {
   margin: 0px;
   padding: 0px;
+  position: relative;
   zoom: 1;
 }
 header.main nav.main > ul:before,
@@ -59,25 +60,63 @@ header.main nav.main > ul > li {
   width: 14.285714285714286%;
   margin: 0px;
   padding: 0px;
+  position: relative;
 }
 header.main nav.main > ul > li.hidden {
   display: none;
 }
-header.main nav.main > ul > li a {
-  display: inline-block;
+header.main nav.main > ul > li ul.submenu {
   width: 100%;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  list-style: none;
+  background: #fee6c8;
+}
+header.main nav.main > ul > li ul.submenu > li {
+  margin: 0px;
+  padding: 0px;
+}
+header.main nav.main > ul > li ul.submenu > li:first-child {
+  margin: 10px 0px 0px;
+}
+header.main nav.main > ul > li ul.submenu > li:last-child {
+  margin: 0px 0px 10px;
+}
+header.main nav.main > ul > li ul.submenu > li > a {
+  padding: 4px 12px;
+  font-size: 0.75em;
+  line-height: 1.1em;
+}
+header.main nav.main > ul > li ul.submenu > li > a:hover {
+  color: #f39200;
+  background: #fff0e3;
+}
+header.main nav.main > ul > li:hover > ul.submenu {
+  height: auto;
+}
+header.main nav.main > ul > li:hover > a {
+  border-top: 3px solid #f39200;
+  color: black;
+  background: #fee6c8;
+}
+header.main nav.main > ul > li a {
+  display: block;
+  color: #505050;
+  text-decoration: none;
+  font-weight: bold;
+}
+header.main nav.main > ul > li > a {
   padding: 10px;
   border-top: 3px solid #ddd;
-  color: #505050;
-  font-weight: bold;
-  text-decoration: none;
 }
-header.main nav.main > ul > li a:hover,
-header.main nav.main > ul > li a.active {
+header.main nav.main > ul > li > a:hover,
+header.main nav.main > ul > li > a.active {
   border-top: 3px solid #f39200;
   color: black;
   background: #fee6c8;
 }
 header.main nav.main .submenu {
-  display: none;
+  height: 0px;
+  overflow: hidden;
 }

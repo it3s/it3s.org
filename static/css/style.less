@@ -49,6 +49,7 @@ header.main {
         > ul {
             margin: 0px;
             padding: 0px;
+            position: relative;
 
             // Clear fix
             zoom: 1;
@@ -67,19 +68,67 @@ header.main {
                 width: (100% / @n_items);
                 margin: 0px;
                 padding: 0px;
+                position: relative;
 
                 &.hidden {
                     display: none;
                 }
 
-                a {
-                    display: inline-block;
+                ul.submenu {
                     width: 100%;
+                    margin: 0px;
+                    padding: 0px;
+                    position: absolute;
+                    list-style: none;
+                    background: #fee6c8;
+
+                    > li {
+                        margin: 0px;
+                        padding: 0px;
+
+                        &:first-child {
+                            margin: 10px 0px 0px;
+                        }
+
+                        &:last-child {
+                            margin: 0px 0px 10px;
+                        }
+
+                        > a {
+                            padding: 4px 12px;
+                            font-size: 0.75em;
+                            line-height: 1.1em;
+
+                            &:hover {
+                                color: #f39200;
+                                background: #fff0e3;
+                            }
+                        }
+                    }
+                }
+
+                &:hover {
+                    > ul.submenu {
+                        height: auto;
+                    }
+
+                    > a {
+                        border-top: 3px solid #f39200;
+                        color: black;
+                        background: #fee6c8;
+                    }
+                }
+
+                a {
+                    display: block;
+                    color: #505050;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+
+                > a {
                     padding: 10px;
                     border-top: 3px solid #ddd;
-                    color: #505050;
-                    font-weight: bold;
-                    text-decoration: none;
 
                     &:hover,
                     &.active {
@@ -87,12 +136,14 @@ header.main {
                         color: black;
                         background: #fee6c8;
                     }
+
                 }
             }
         }
 
         .submenu {
-            display: none;
+            height: 0px;
+            overflow: hidden;
         }
     }
 
