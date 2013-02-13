@@ -23,7 +23,7 @@
     <!-- /HEADER -->
 
     <!-- CONTENT -->
-    <section class="main content">
+    <section class="main content"{% if page.id %} id="{{ page.id }}" {% endif %}>
       {% block content %}
       {% endblock content %}
     </section>

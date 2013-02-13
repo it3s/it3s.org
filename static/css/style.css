@@ -9,12 +9,15 @@
 }
 body {
   font-family: Cambria, Georgia, serif;
-  font-size: 0.9em;
+  font-size: 0.8em;
+}
+p {
+  font-family: Calibri, "Trebuchet MS", Verdana, sans-serif;
 }
 header.main,
 section.content.main,
 footer.main {
-  width: 960px;
+  width: 850px;
   margin: 0 auto;
 }
 /*
@@ -22,7 +25,7 @@ footer.main {
  * ------
  */
 header.main {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 header.main .logo {
   display: inline-block;
@@ -39,7 +42,7 @@ header.main .logo a {
 }
 header.main .tagline {
   display: inline-block;
-  width: 650px;
+  width: 450px;
   margin: 0px 0px 0px 50px;
   vertical-align: bottom;
   font-size: 1.65em;
@@ -136,7 +139,7 @@ footer.main {
   border-top: solid 1px #aaa;
   margin-top: 50px;
   padding: 10px 30px;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 footer.main,
 footer.main a {
@@ -194,4 +197,26 @@ footer.main .supporters ul .instituto-cea {
 }
 footer.main .supporters ul .acesso-informacao {
   margin-left: 150px;
+}
+/*
+ * Pages
+ * -----
+ */
+section.main.content {
+  /*
+     * Sobre
+     * -----
+     */
+
+}
+section.main.content#sobre > p.content {
+  margin-bottom: 70px;
+}
+section.main.content#sobre img.visao {
+  float: right;
+  margin: 0px 25px;
+}
+section.main.content#sobre img.missao {
+  float: left;
+  margin: 0px 25px;
 }
