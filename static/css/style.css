@@ -1,3 +1,7 @@
+/*
+ * Global
+ * ------
+ */
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -13,6 +17,10 @@ footer.main {
   width: 960px;
   margin: 0 auto;
 }
+/*
+ * Header
+ * ------
+ */
 header.main {
   margin-top: 50px;
 }
@@ -119,4 +127,71 @@ header.main nav.main > ul > li > a.active {
 header.main nav.main .submenu {
   height: 0px;
   overflow: hidden;
+}
+/*
+ * Footer
+ * ------
+ */
+footer.main {
+  border-top: solid 1px #aaa;
+  margin-top: 50px;
+  padding: 10px 30px;
+  font-size: 0.8em;
+}
+footer.main,
+footer.main a {
+  color: #505050;
+}
+footer.main > div {
+  vertical-align: top;
+}
+footer.main .contact {
+  display: inline-block;
+  width: 280px;
+}
+footer.main .contact .address {
+  display: block;
+  margin: 0px 0px 15px;
+  padding-left: 20px;
+  background: url(../images/icons/address.png) no-repeat 0px 3px;
+}
+footer.main .contact .phone {
+  display: inline-block;
+  min-height: 20px;
+  padding-left: 20px;
+  background: url(../images/icons/phone.png) no-repeat 2px 3px;
+}
+footer.main .contact .email {
+  display: inline-block;
+  min-height: 20px;
+  margin-left: 8px;
+  padding-left: 20px;
+  background: url(../images/icons/email.png) no-repeat 0px 3px;
+}
+footer.main .supporters {
+  display: inline-block;
+  width: 500px;
+}
+footer.main .supporters a {
+  text-decoration: none;
+}
+footer.main .supporters a img {
+  border: none;
+}
+footer.main .supporters h1 {
+  margin: 0px 0px 15px;
+  font-size: 1em;
+}
+footer.main .supporters ul,
+footer.main .supporters ul li {
+  display: inline;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+footer.main .supporters ul .instituto-cea {
+  margin-left: 30px;
+}
+footer.main .supporters ul .acesso-informacao {
+  margin-left: 150px;
 }

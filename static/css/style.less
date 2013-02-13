@@ -1,3 +1,7 @@
+/*
+ * Global
+ * ------
+ */
 * {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -9,11 +13,18 @@ body {
     font-size: 0.9em;
 }
 
-header.main, section.content.main, footer.main {
+header.main,
+section.content.main,
+footer.main {
     width: 960px;
     margin: 0 auto;
 }
 
+
+/*
+ * Header
+ * ------
+ */
 header.main {
     margin-top: 50px;
 
@@ -147,4 +158,87 @@ header.main {
         }
     }
 
+}
+
+/*
+ * Footer
+ * ------
+ */
+footer.main {
+    border-top: solid 1px #aaa;
+    margin-top: 50px;
+    padding: 10px 30px;
+    font-size: 0.8em;
+
+    &,
+    a {
+        color: #505050;
+    }
+
+    > div {
+        vertical-align: top;
+    }
+
+    .contact {
+        display: inline-block;
+        width: 280px;
+
+        .address {
+            display: block;
+            margin: 0px 0px 15px;
+            padding-left: 20px;
+            background: url(../images/icons/address.png) no-repeat 0px 3px;
+        }
+
+        .phone {
+            display: inline-block;
+            min-height: 20px;
+            padding-left: 20px;
+            background: url(../images/icons/phone.png) no-repeat 2px 3px;
+        }
+
+        .email {
+            display: inline-block;
+            min-height: 20px;
+            margin-left: 8px;
+            padding-left: 20px;
+            background: url(../images/icons/email.png) no-repeat 0px 3px;
+        }
+    }
+
+    .supporters {
+        display: inline-block;
+        width: 500px;
+
+        a {
+            text-decoration: none;
+
+            img {
+                border: none;
+            }
+        }
+
+        h1 {
+            margin: 0px 0px 15px;
+           font-size: 1em;
+        }
+
+        ul {
+            &,
+            li {
+                display: inline;
+                list-style: none;
+                margin: 0px;
+                padding: 0px;
+            }
+
+            .instituto-cea {
+                margin-left: 30px;
+            }
+
+            .acesso-informacao {
+                margin-left: 150px;
+            }
+        }
+    }
 }
