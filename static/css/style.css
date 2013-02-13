@@ -21,6 +21,21 @@ footer.main {
   margin: 0 auto;
 }
 /*
+ * Mixins
+ * ------
+ */
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+/*
  * Header
  * ------
  */
@@ -52,10 +67,10 @@ header.main nav.main {
   margin: 40px 0px;
 }
 header.main nav.main > ul {
+  zoom: 1;
   margin: 0px;
   padding: 0px;
   position: relative;
-  zoom: 1;
 }
 header.main nav.main > ul:before,
 header.main nav.main > ul:after {
@@ -208,6 +223,11 @@ section.main.content {
      * -----
      */
 
+  /*
+     * Sobre > Valores e principios
+     * ----------------------------
+     */
+
 }
 section.main.content#sobre > p.content {
   margin-bottom: 70px;
@@ -219,4 +239,29 @@ section.main.content#sobre img.visao {
 section.main.content#sobre img.missao {
   float: left;
   margin: 0px 25px;
+}
+section.main.content#principios > ul {
+  zoom: 1;
+  margin: 0px;
+  padding: 50px 0px 10px;
+  list-style: none;
+  border-bottom: solid 2px #dcdcdc;
+}
+section.main.content#principios > ul:before,
+section.main.content#principios > ul:after {
+  content: "";
+  display: table;
+}
+section.main.content#principios > ul:after {
+  clear: both;
+}
+section.main.content#principios > ul > li {
+  display: block;
+  float: left;
+  width: 14.285714285714286%;
+  text-align: center;
+  vertical-align: top;
+  color: #505050;
+  font-size: 0.9em;
+  font-weight: bold;
 }

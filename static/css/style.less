@@ -26,6 +26,22 @@ footer.main {
 
 
 /*
+ * Mixins
+ * ------
+ */
+.clearfix {
+    zoom: 1;
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear:both;
+    }
+}
+
+/*
  * Header
  * ------
  */
@@ -62,20 +78,11 @@ header.main {
         margin: 40px 0px;
 
         > ul {
+            .clearfix;
+
             margin: 0px;
             padding: 0px;
             position: relative;
-
-            // Clear fix
-            zoom: 1;
-            &:before,
-            &:after {
-                content: "";
-                display: table;
-            }
-            &:after {
-                clear:both;
-            }
 
             > li {
                 display: block;
@@ -272,6 +279,37 @@ section.main.content {
           float: left;
           margin: 0px 25px;
         }
+    }
+
+    /*
+     * Sobre > Valores e principios
+     * ----------------------------
+     */
+    &#principios {
+        > ul {
+            @n_items: 7;
+
+            .clearfix;
+
+            margin: 0px;
+            padding: 50px 0px 10px;
+            list-style: none;
+            border-bottom: solid 2px #dcdcdc;
+
+            > li {
+                display: block;
+                float: left;
+                width: (100% / @n_items);
+                text-align: center;
+                vertical-align: top;
+
+                color: #505050;
+                font-size: 0.9em;
+                font-weight: bold;
+
+            }
+        }
+
     }
 
 }
