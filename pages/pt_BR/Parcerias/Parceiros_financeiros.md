@@ -8,7 +8,7 @@ Parceiros financeiros
 =====================
 
 Você quer apoiar os projetos do IT3S? [Torne-se nosso doador!](/Colabore/Doacoes)
-{: .doador}
+{: .destaque}
 
  * > ![][icea] Instituto C&A
    > =======================

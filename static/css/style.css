@@ -251,6 +251,16 @@ section.main.content {
      * ---------------------------------
      */
 
+  /*
+     * Parcerias > Parceiros de divulgacao
+     * -----------------------------------
+     */
+
+  /*
+     * Parcerias > Parceiros tecnicos
+     * -----------------------------------
+     */
+
 }
 section.main.content#sobre > p.content {
   margin-bottom: 70px;
@@ -286,6 +296,15 @@ section.main.content > ul.tablist-content > li > blockquote {
   width: 900px;
   margin: 0px;
   text-align: left;
+}
+section.main.content .destaque {
+  width: 55%;
+  margin: 25px auto 15px;
+  padding: 15px;
+  border: solid 3px #8296a2;
+  border-radius: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
 }
 section.main.content > ul.tablist {
   border-bottom: solid 2px #dcdcdc;
@@ -362,12 +381,9 @@ section.main.content#historico img.maps {
   float: right;
   margin: 30px 30px 30px 80px;
 }
-section.main.content#parceiros-financeiros .doador {
-  width: 55%;
-  margin: 25px auto 15px;
-  padding: 15px;
-  border: solid 3px #8296a2;
-  border-radius: 10px;
-  font-size: 1.1em;
-  font-weight: bold;
+section.main.content#parceiros-divulgacao .destaque {
+  width: 70%;
+}
+section.main.content#parceiros-tecnicos .destaque {
+  width: 70%;
 }

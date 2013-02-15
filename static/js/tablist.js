@@ -37,7 +37,7 @@
       $el.css('min-height', el_minHeight + 35);
       return $el.before($ul);
     };
-    return $('#equipe > ul, #principios > ul, #parceiros-financeiros > ul').each(function() {
+    return $('#equipe > ul, #principios > ul,\n#parceiros-financeiros > ul, #parceiros-divulgacao > ul, #parceiros-tecnicos > ul').each(function() {
       return createTab($(this));
     });
   });
