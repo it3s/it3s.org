@@ -12,22 +12,28 @@
       return $content.show();
     };
     createTab = function($el) {
-      var $el_li, $ul, li_width;
+      var $el_li, $ul, el_minHeight, li_width;
       $el.addClass('tablist-content');
       $ul = $('<ul>').addClass('tablist');
       $el_li = $el.find('li');
       li_width = $el.parent().width() / $el_li.length;
-      $el_li.each(function() {
-        var $li, $this;
+      el_minHeight = 0;
+      $el_li.each(function(index) {
+        var $li, $this, this_height;
         $this = $(this);
-        $this.hide();
         $li = $('<li>').append($this.find('blockquote > h1').contents());
         $ul.append($li.css({
           width: li_width
         }));
         $li.data('content', $this);
-        return $li.click(onItemClick);
+        $li.click(onItemClick);
+        el_minHeight = parseInt($el.css('min-height'), 10) || 0;
+        this_height = $this.height();
+        $el.css('min-height', (el_minHeight > this_height ? el_minHeight : this_height));
+        $this.hide();
+        if (index === 0) return $li.click();
       });
+      $el.css('min-height', el_minHeight + 35);
       return $el.before($ul);
     };
     return $('#equipe > ul, #principios > ul').each(function() {

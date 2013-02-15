@@ -256,7 +256,6 @@ section.main.content > ul.tablist-content {
   margin: 0px;
   padding: 20px 0px 10px;
   list-style: none;
-  border-bottom: solid 2px #dcdcdc;
 }
 section.main.content > ul.tablist:before,
 section.main.content > ul.tablist-content:before,
@@ -274,6 +273,9 @@ section.main.content > ul.tablist-content > li > blockquote {
   width: 900px;
   margin: 0px;
   text-align: left;
+}
+section.main.content > ul.tablist {
+  border-bottom: solid 2px #dcdcdc;
 }
 section.main.content > ul.tablist > li {
   display: block;
