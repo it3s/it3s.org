@@ -2,6 +2,9 @@
  * Global
  * ------
  */
+
+@site_width: 900px;
+
 * {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -20,7 +23,7 @@ p {
 header.main,
 section.content.main,
 footer.main {
-    width: 900px;
+    width: @site_width;
     margin: 0 auto;
 }
 
@@ -282,24 +285,32 @@ section.main.content {
     }
 
     /*
-     * Sobre > Valores e principios
-     * ----------------------------
+     * Generic list
+     * ------------
      */
-    &#principios {
-        > ul {
-            @n_items: 7;
-
+    &  {
+        > ul.tablist,
+        > ul.tablist-content {
             .clearfix;
 
             margin: 0px;
-            padding: 50px 0px 10px;
+            padding: 20px 0px 10px;
             list-style: none;
             border-bottom: solid 2px #dcdcdc;
 
             > li {
+                > blockquote {
+                    width: @site_width;
+                    margin: 0px;
+                    text-align: left;
+                }
+            }
+        }
+
+        > ul.tablist {
+            > li {
                 display: block;
                 float: left;
-                width: (100% / @n_items);
                 text-align: center;
                 vertical-align: top;
 
@@ -307,9 +318,73 @@ section.main.content {
                 font-size: 0.9em;
                 font-weight: bold;
 
+                cursor: pointer;
+
+                > img,
+                > p > img {
+                    display: block;
+                    margin: 0px auto;
+                }
             }
         }
-
     }
 
+    /*
+     * Sobre > Valores e principios
+     * ----------------------------
+     */
+    &#principios {
+        > ul {
+            @n_items: 7;
+
+            > li {
+                width: (100% / @n_items);
+            }
+        }
+    }
+
+    /*
+     * Sobre > Equipe
+     * --------------
+     */
+    &#equipe {
+        > ul {
+            &.tablist {
+                display: block;
+
+                > li {
+                    > img {
+                        opacity: 0.5;
+                        position: relative;
+                        left: -3px;
+                    }
+
+                    &.active,
+                    &:hover {
+                        color: black;
+
+                        > img {
+                            opacity: 1;
+                        }
+                    }
+
+                    &:last-child > img {
+                        left: -10px;
+                    }
+                }
+            }
+
+            &.tablist-content {
+                > li {
+                    > blockquote {
+                        > p {
+                            column-count: 2;
+                            -moz-column-count: 2;
+                            -webkit-column-count: 2;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

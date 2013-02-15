@@ -21,5 +21,5 @@ Por meio de tecnologias colaborativas, abertura e publicação de dados fomentar
 {: .content }
 
 
-[visao]: /static/images/sobre/visao.png
-[missao]: /static/images/sobre/missao.png
+[visao]:  /static/images/sobre/visao_e_missao/visao.png
+[missao]: /static/images/sobre/visao_e_missao/missao.png

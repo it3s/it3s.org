@@ -224,8 +224,18 @@ section.main.content {
      */
 
   /*
+     * Generic list
+     * ------------
+     */
+
+  /*
      * Sobre > Valores e principios
      * ----------------------------
+     */
+
+  /*
+     * Sobre > Equipe
+     * --------------
      */
 
 }
@@ -240,28 +250,70 @@ section.main.content#sobre img.missao {
   float: left;
   margin: 0px 25px;
 }
-section.main.content#principios > ul {
+section.main.content > ul.tablist,
+section.main.content > ul.tablist-content {
   zoom: 1;
   margin: 0px;
-  padding: 50px 0px 10px;
+  padding: 20px 0px 10px;
   list-style: none;
   border-bottom: solid 2px #dcdcdc;
 }
-section.main.content#principios > ul:before,
-section.main.content#principios > ul:after {
+section.main.content > ul.tablist:before,
+section.main.content > ul.tablist-content:before,
+section.main.content > ul.tablist:after,
+section.main.content > ul.tablist-content:after {
   content: "";
   display: table;
 }
-section.main.content#principios > ul:after {
+section.main.content > ul.tablist:after,
+section.main.content > ul.tablist-content:after {
   clear: both;
 }
-section.main.content#principios > ul > li {
+section.main.content > ul.tablist > li > blockquote,
+section.main.content > ul.tablist-content > li > blockquote {
+  width: 900px;
+  margin: 0px;
+  text-align: left;
+}
+section.main.content > ul.tablist > li {
   display: block;
   float: left;
-  width: 14.285714285714286%;
   text-align: center;
   vertical-align: top;
   color: #505050;
   font-size: 0.9em;
   font-weight: bold;
+  cursor: pointer;
+}
+section.main.content > ul.tablist > li > img,
+section.main.content > ul.tablist > li > p > img {
+  display: block;
+  margin: 0px auto;
+}
+section.main.content#principios > ul > li {
+  width: 14.285714285714286%;
+}
+section.main.content#equipe > ul.tablist {
+  display: block;
+}
+section.main.content#equipe > ul.tablist > li > img {
+  opacity: 0.5;
+  position: relative;
+  left: -3px;
+}
+section.main.content#equipe > ul.tablist > li.active,
+section.main.content#equipe > ul.tablist > li:hover {
+  color: black;
+}
+section.main.content#equipe > ul.tablist > li.active > img,
+section.main.content#equipe > ul.tablist > li:hover > img {
+  opacity: 1;
+}
+section.main.content#equipe > ul.tablist > li:last-child > img {
+  left: -10px;
+}
+section.main.content#equipe > ul.tablist-content > li > blockquote > p {
+  column-count: 2;
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
 }

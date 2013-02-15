@@ -8,13 +8,26 @@ Valores e princípios
 
 Acreditamos em sete princípios que dialogam com nosso ideal de uma sociedade participativa:
 
- * ![][colab] Colaboração
- * ![][trans] Transparência
- * ![][sust]  Sustentabilidade
- * ![][part]  Participação
- * ![][auto]  Autogestão
- * ![][desc]  Descentralização
- * ![][socio] Incidência política e controle social
+ * > ![][colab] Colaboração
+   > ======================
+
+ * > ![][trans] Transparência
+   > ========================
+
+ * > ![][sust]  Sustentabilidade
+   > ===========================
+
+ * > ![][part]  Participação
+   > =======================
+
+ * > ![][auto]  Autogestão
+   > =====================
+
+ * > ![][desc]  Descentralização
+   > ===========================
+
+ * > ![][socio] Incidência política e controle social
+   > ================================================
 
 
 [colab]: /static/images/sobre/principios/colaboracao.png
