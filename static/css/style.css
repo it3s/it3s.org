@@ -8,11 +8,11 @@
   -webkit-box-sizing: border-box;
 }
 body {
-  font-family: Cambria, Georgia, serif;
+  font-family: Calibri, "Trebuchet MS", Verdana, sans-serif;
   font-size: 0.9em;
 }
-p {
-  font-family: Calibri, "Trebuchet MS", Verdana, sans-serif;
+a {
+  color: #f39200;
 }
 header.main,
 section.content.main,
@@ -41,6 +41,7 @@ footer.main {
  */
 header.main {
   margin-top: 40px;
+  font-family: Cambria, Georgia, serif;
 }
 header.main .logo {
   display: inline-block;
@@ -96,6 +97,7 @@ header.main nav.main > ul > li ul.submenu {
   margin: 0px;
   padding: 0px;
   position: absolute;
+  z-index: 9999;
   list-style: none;
   background: #fee6c8;
 }
@@ -155,6 +157,7 @@ footer.main {
   margin-top: 50px;
   padding: 10px 30px;
   font-size: 0.9em;
+  font-family: Cambria, Georgia, serif;
 }
 footer.main,
 footer.main a {
@@ -238,6 +241,16 @@ section.main.content {
      * --------------
      */
 
+  /*
+     * Sobre > Histórico
+     * -----------------
+     */
+
+  /*
+     * Parcerias > Parceiros financeiros
+     * ---------------------------------
+     */
+
 }
 section.main.content#sobre > p.content {
   margin-bottom: 70px;
@@ -276,6 +289,7 @@ section.main.content > ul.tablist-content > li > blockquote {
 }
 section.main.content > ul.tablist {
   border-bottom: solid 2px #dcdcdc;
+  font-family: Cambria, Georgia, serif;
 }
 section.main.content > ul.tablist > li {
   display: block;
@@ -292,11 +306,30 @@ section.main.content > ul.tablist > li > p > img {
   display: block;
   margin: 0px auto;
 }
+section.main.content > ul.tablist > li > img {
+  opacity: 0.5;
+  position: relative;
+}
+section.main.content > ul.tablist > li.active,
+section.main.content > ul.tablist > li:hover {
+  color: black;
+}
+section.main.content > ul.tablist > li.active > img,
+section.main.content > ul.tablist > li:hover > img {
+  opacity: 1;
+}
+section.main.content ul.tablist-content > li > blockquote {
+  font-size: 0.9em;
+  column-count: 2;
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+}
+section.main.content ul.tablist-content > li > blockquote h2 {
+  margin: 0px;
+  font-size: 1.1em;
+}
 section.main.content#principios > ul > li {
   width: 14.285714285714286%;
-}
-section.main.content#equipe > ul.tablist {
-  display: block;
 }
 section.main.content#equipe > ul.tablist > li > img {
   opacity: 0.5;
@@ -314,8 +347,27 @@ section.main.content#equipe > ul.tablist > li:hover > img {
 section.main.content#equipe > ul.tablist > li:last-child > img {
   left: -10px;
 }
-section.main.content#equipe > ul.tablist-content > li > blockquote > p {
-  column-count: 2;
-  -moz-column-count: 2;
-  -webkit-column-count: 2;
+section.main.content#historico p {
+  margin: 30px 0px;
+}
+section.main.content#historico img.form {
+  float: right;
+  margin: 20px 30px 20px 80px;
+}
+section.main.content#historico img.vote {
+  float: left;
+  margin: 20px 80px 20px 30px;
+}
+section.main.content#historico img.maps {
+  float: right;
+  margin: 30px 30px 30px 80px;
+}
+section.main.content#parceiros-financeiros .doador {
+  width: 55%;
+  margin: 25px auto 15px;
+  padding: 15px;
+  border: solid 3px #8296a2;
+  border-radius: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
 }

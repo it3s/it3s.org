@@ -16,6 +16,8 @@ A equipe atual do IT3S conta com os seguintes profissionais:
    > desenvolvimento comunitário no Brasil. Ela mantém as relações com os
    > parceiros e coordena o trabalho do IT3S. Tem uma paixão por dados,
    > planilhas e mapas.
+   >
+   > [Perfil no MootiroMaps][maps_dani]{: target=_blank}
 
  * > ![][olga] Olga Fallmeier
    > ========================
@@ -28,6 +30,8 @@ A equipe atual do IT3S conta com os seguintes profissionais:
    > tarefas onde pode pôr alguma coisa em ordem. Desde sua entrada na equipe
    > em maio de 2012 ela trata toda equipe com um café especial de Santos,
    > onde ela mora.
+   >
+   > [Perfil no MootiroMaps][maps_olga]{: target=_blank}
 
  * > ![][clari] Clariane Santos
    > ==========================
@@ -41,6 +45,8 @@ A equipe atual do IT3S conta com os seguintes profissionais:
    > educacionais, Heliópolis Verde, um projeto que pretende trabalhar o meio
    > ambiente na comunidade interagindo grupos de dentro ou fora da comunidade.
    > Também contribui com a administração do Instituto.
+   >
+   > [Perfil no MootiroMaps][maps_clari]{: target=_blank}
 
  * > ![][aimee] Aimeê Ferreira
    > =========================
@@ -52,6 +58,8 @@ A equipe atual do IT3S conta com os seguintes profissionais:
    > Há dois anos ela cuida da interface e usabilidade das ferramentas
    > desenvolvidas pelo IT3S, além da identidade visual e peças de comunicação
    > do Instituto.
+   >
+   > [Perfil no MootiroMaps][maps_aimee]{: target=_blank}
 
  * > ![][andre] André Casimiro
    > =========================
@@ -65,6 +73,8 @@ A equipe atual do IT3S conta com os seguintes profissionais:
    > outras. Chegou a implantar o sistema que desenvolvia também no escritório
    > do Chile. Hoje, possui já alguns anos de experiência em desenvolvimento
    > web em diversas tecnologias.
+   >
+   > [Perfil no MootiroMaps][maps_andre]{: target=_blank}
 
  * > ![][luiz] Luiz Armesto
    > ======================
@@ -78,6 +88,8 @@ A equipe atual do IT3S conta com os seguintes profissionais:
    > computação - de modo autodidata - há mais de 12 anos e é entusiasta do
    > Software Livre. Faz parte da equipe de desenvolvedores do IT3S desde 2011
    > e participa atualmente do desenvolvimento do MootiroMaps.
+   >
+   > [Perfil no MootiroMaps][maps_luiz]{: target=_blank}
 
  * > ![][anderson] Anderson Cardoso
    > ==============================
@@ -88,6 +100,8 @@ A equipe atual do IT3S conta com os seguintes profissionais:
    > pelo Programa de Educação Continuada da Poli-USP. Anteriormente cursou
    > Física e Engenharia Mecatrônica. É amplamente engajado no universo de
    > Software Livre.
+   >
+   > [Perfil no MootiroMaps][maps_anderson]{: target=_blank}
 
 
 [dani]:     /static/images/sobre/equipe/dani.png
@@ -97,3 +111,11 @@ A equipe atual do IT3S conta com os seguintes profissionais:
 [andre]:    /static/images/sobre/equipe/andre.png
 [luiz]:     /static/images/sobre/equipe/luiz.png
 [anderson]: /static/images/sobre/equipe/anderson.png
+
+[maps_dani]:     http://maps.mootiro.org/user/2
+[maps_olga]:     http://maps.mootiro.org/user/75
+[maps_clari]:    http://maps.mootiro.org/user/185
+[maps_aimee]:    http://maps.mootiro.org/user/5
+[maps_andre]:    http://maps.mootiro.org/user/16
+[maps_luiz]:     http://maps.mootiro.org/user/3
+[maps_anderson]: http://maps.mootiro.org/user/7

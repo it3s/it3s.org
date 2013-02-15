@@ -36,4 +36,4 @@ Acreditamos em sete princípios que dialogam com nosso ideal de uma sociedade pa
 [part]: /static/images/sobre/principios/participacao.png
 [auto]: /static/images/sobre/principios/autogestao.png
 [desc]: /static/images/sobre/principios/descentralizacao.png
-[socio]: /static/images/sobre/principios/incidencia_politica.png
+[socio]: /static/images/sobre/principios/controle_social.png

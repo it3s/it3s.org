@@ -15,13 +15,14 @@
       var $el_li, $ul, el_minHeight, li_width;
       $el.addClass('tablist-content');
       $ul = $('<ul>').addClass('tablist');
-      $el_li = $el.find('li');
+      $el_li = $el.find('> li');
       li_width = $el.parent().width() / $el_li.length;
       el_minHeight = 0;
       $el_li.each(function(index) {
-        var $li, $this, this_height;
+        var $li, $this, $title, this_height;
         $this = $(this);
-        $li = $('<li>').append($this.find('blockquote > h1').contents());
+        $title = $this.find('blockquote > h1').remove();
+        $li = $('<li>').append($title.contents());
         $ul.append($li.css({
           width: li_width
         }));
@@ -36,7 +37,7 @@
       $el.css('min-height', el_minHeight + 35);
       return $el.before($ul);
     };
-    return $('#equipe > ul, #principios > ul').each(function() {
+    return $('#equipe > ul, #principios > ul, #parceiros-financeiros > ul').each(function() {
       return createTab($(this));
     });
   });

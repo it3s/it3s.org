@@ -18,14 +18,15 @@ $ ->
     # Create the new list element
     $ul = $('<ul>').addClass('tablist')
     # Get all original list items
-    $el_li = $el.find('li')
+    $el_li = $el.find('> li')
     li_width = ($el.parent().width() / $el_li.length)
     el_minHeight = 0
 
     $el_li.each (index) ->
       $this = $(this)
+      $title = $this.find('blockquote > h1').remove()
       # Create the new list item with the header from original list item
-      $li = $('<li>').append $this.find('blockquote > h1').contents()
+      $li = $('<li>').append $title.contents()
       # Set the correct width to all items be inline
       $ul.append $li.css(width: li_width)
       # Set reference to the original item
@@ -45,6 +46,6 @@ $ ->
     $el.before $ul
 
 
-  $('#equipe > ul, #principios > ul').each () ->
+  $('#equipe > ul, #principios > ul, #parceiros-financeiros > ul').each () ->
     createTab($(this));
 

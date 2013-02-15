@@ -12,12 +12,12 @@
 }
 
 body {
-    font-family: Cambria, Georgia, serif;
+    font-family:Calibri, "Trebuchet MS", Verdana, sans-serif;
     font-size: 0.9em;
 }
 
-p {
-    font-family:Calibri, "Trebuchet MS", Verdana, sans-serif;
+a {
+    color: #f39200;
 }
 
 header.main,
@@ -26,7 +26,6 @@ footer.main {
     width: @site_width;
     margin: 0 auto;
 }
-
 
 /*
  * Mixins
@@ -50,6 +49,7 @@ footer.main {
  */
 header.main {
     margin-top: 40px;
+    font-family: Cambria, Georgia, serif;
 
     .logo {
         display: inline-block;
@@ -104,6 +104,7 @@ header.main {
                     margin: 0px;
                     padding: 0px;
                     position: absolute;
+                    z-index: 9999;
                     list-style: none;
                     background: #fee6c8;
 
@@ -183,6 +184,7 @@ footer.main {
     margin-top: 50px;
     padding: 10px 30px;
     font-size: 0.9em;
+    font-family: Cambria, Georgia, serif;
 
     &,
     a {
@@ -308,6 +310,7 @@ section.main.content {
 
         > ul.tablist {
             border-bottom: solid 2px #dcdcdc;
+            font-family: Cambria, Georgia, serif;
 
             > li {
                 display: block;
@@ -325,6 +328,41 @@ section.main.content {
                 > p > img {
                     display: block;
                     margin: 0px auto;
+                }
+            }
+
+            // TODO
+            & {
+                > li {
+                    > img {
+                        opacity: 0.5;
+                        position: relative;
+                    }
+
+                    &.active,
+                    &:hover {
+                        color: black;
+
+                        > img {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+
+        ul.tablist-content {
+            > li {
+                > blockquote {
+                    font-size: 0.9em;
+                    column-count: 2;
+                    -moz-column-count: 2;
+                    -webkit-column-count: 2;
+
+                    h2 {
+                        margin: 0px;
+                        font-size: 1.1em;
+                    }
                 }
             }
         }
@@ -351,8 +389,6 @@ section.main.content {
     &#equipe {
         > ul {
             &.tablist {
-                display: block;
-
                 > li {
                     > img {
                         opacity: 0.5;
@@ -375,17 +411,47 @@ section.main.content {
                 }
             }
 
-            &.tablist-content {
-                > li {
-                    > blockquote {
-                        > p {
-                            column-count: 2;
-                            -moz-column-count: 2;
-                            -webkit-column-count: 2;
-                        }
-                    }
-                }
-            }
         }
     }
+
+    /*
+     * Sobre > Histórico
+     * -----------------
+     */
+    &#historico {
+        p {
+            margin: 30px 0px;
+        }
+
+        img.form {
+            float: right;
+            margin: 20px 30px 20px 80px;
+        }
+
+        img.vote {
+            float: left;
+            margin: 20px 80px 20px 30px;
+        }
+
+        img.maps {
+            float: right;
+            margin: 30px 30px 30px 80px;
+        }
+    }
+
+    /*
+     * Parcerias > Parceiros financeiros
+     * ---------------------------------
+     */
+     &#parceiros-financeiros {
+        .doador {
+            width: 55%;
+            margin: 25px auto 15px;
+            padding: 15px;
+            border: solid 3px #8296a2;
+            border-radius: 10px;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+     }
 }
