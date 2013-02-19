@@ -10,7 +10,7 @@ Parceiros financeiros
 Você quer apoiar os projetos do IT3S? [Torne-se nosso doador!](/Colabore/Doacoes)
 {: .destaque}
 
- * > ![][icea] Instituto C&A
+ * > ![][icea] Instituto C&A {: data-url='Instituto_CeA'}
    > =======================
    > Projeto: Comunidade de Práticas MootiroMaps
    > -------------------------------------------
@@ -41,7 +41,7 @@ Você quer apoiar os projetos do IT3S? [Torne-se nosso doador!](/Colabore/Doacoe
    >  * [2º relatório intermediário (janeiro de 2013)](https://docs.google.com/document/d/1aWZC8FVDri2LrNk-VKPG16RoFOUpEmLD3be6NE_2a5c/edit)
 
 
- * > ![][cenpec] CENPEC
+ * > ![][cenpec] CENPEC {: data-url='CENPEC'}
    > ==================
    > ##Projetos: [Territórios da Juventude Brasilândia](http://maps.mootiro.org/project/35), [Capão Redondo](http://maps.mootiro.org/project/33), [Cidade Tiradentes](http://maps.mootiro.org/project/34)
    > O [Programa Jovens Urbanos](http://maps.mootiro.org/resource/1187) é uma
@@ -76,7 +76,7 @@ Você quer apoiar os projetos do IT3S? [Torne-se nosso doador!](/Colabore/Doacoe
    >  * Contrato de Prestação de Serviços
 
 
- * > ![][aucuba] Auçuba / CONANDA
+ * > ![][aucuba] Auçuba / CONANDA {: data-url='Aucuba_CONANDA'}
    > ============================
    > Projeto: [Rede de Conselhos](http://maps.mootiro.org/project/3)
    > ---------------------------------------------------------------

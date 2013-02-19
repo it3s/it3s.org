@@ -337,7 +337,9 @@ section.main.content {
                 font-size: 0.9em;
                 font-weight: bold;
 
-                cursor: pointer;
+                &.clickable {
+                    cursor: pointer;
+                }
 
                 > img,
                 > p > img {
@@ -348,7 +350,7 @@ section.main.content {
 
             // TODO
             & {
-                > li {
+                > li.clickable {
                     > img {
                         opacity: 0.5;
                         position: relative;

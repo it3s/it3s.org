@@ -345,6 +345,8 @@ section.main.content > ul.tablist > li {
   color: #505050;
   font-size: 0.9em;
   font-weight: bold;
+}
+section.main.content > ul.tablist > li.clickable {
   cursor: pointer;
 }
 section.main.content > ul.tablist > li > img,
@@ -352,16 +354,16 @@ section.main.content > ul.tablist > li > p > img {
   display: block;
   margin: 0px auto;
 }
-section.main.content > ul.tablist > li > img {
+section.main.content > ul.tablist > li.clickable > img {
   opacity: 0.5;
   position: relative;
 }
-section.main.content > ul.tablist > li.active,
-section.main.content > ul.tablist > li:hover {
+section.main.content > ul.tablist > li.clickable.active,
+section.main.content > ul.tablist > li.clickable:hover {
   color: black;
 }
-section.main.content > ul.tablist > li.active > img,
-section.main.content > ul.tablist > li:hover > img {
+section.main.content > ul.tablist > li.clickable.active > img,
+section.main.content > ul.tablist > li.clickable:hover > img {
   opacity: 1;
 }
 section.main.content ul.tablist-content > li > blockquote {

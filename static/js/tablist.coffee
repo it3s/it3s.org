@@ -1,5 +1,7 @@
 $ ->
 
+  fragments = {}
+
   onItemClick = (evt) ->
     $this = $(this)
     $this.parent().find('.active').removeClass('active')
@@ -10,9 +12,10 @@ $ ->
     $content.parent().find('> li').hide()
     # Show the item content
     $content.show()
+    window.location.hash = $this.data('fragment') if $this.data('fragment')
 
 
-  createTab = ($el) ->
+  createTab = ($el, clickable=true) ->
     # Hide the original element
     $el.addClass('tablist-content')
     # Create the new list element
@@ -29,10 +32,18 @@ $ ->
       $li = $('<li>').append $title.contents()
       # Set the correct width to all items be inline
       $ul.append $li.css(width: li_width)
+      # Use url fragment
+      fragment = $title.attr('data-url')
+      if fragment
+        $li.data('fragment', "##{fragment}")
+        fragments["##{fragment}"] = $li
       # Set reference to the original item
       $li.data('content', $this)
+      $li.addClass 'clickable' if clickable
+      $li.data('clickFunction', onItemClick)
       # Bind the click event to display the original item
-      $li.click onItemClick
+      $li.click onItemClick if clickable and not fragment
+      $li.click( -> window.location.hash = fragment ) if clickable and fragment
       ## Stop footer dance
       #el_minHeight = parseInt($el.css('min-height'), 10) or 0
       #this_height = $this.height()
@@ -45,9 +56,15 @@ $ ->
     #$el.css('min-height', el_minHeight + 35)
     $el.before $ul
 
+  $(window).bind 'hashchange', ->
+    fragment = window.location.hash
+    $li = fragments[fragment]
+    clickFunction = $li.data('clickFunction')
+    clickFunction.apply($li)
 
-  $('''#equipe > ul:first , #principios > ul,
-    #parceiros-financeiros > ul, #parceiros-divulgacao > ul, #parceiros-tecnicos > ul,
-    #metodologia-cenario > ul''').each () ->
-    createTab($(this));
 
+  $('''#equipe > ul:first, #parceiros-financeiros > ul, #metodologia-cenario > ul''').each () ->
+    createTab($(this))
+
+  $('''#principios > ul, #parceiros-divulgacao > ul, #parceiros-tecnicos > ul''').each () ->
+    createTab($(this), false)

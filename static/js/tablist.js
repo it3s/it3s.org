@@ -1,7 +1,8 @@
 (function() {
 
   $(function() {
-    var createTab, onItemClick;
+    var createTab, fragments, onItemClick;
+    fragments = {};
     onItemClick = function(evt) {
       var $content, $this;
       $this = $(this);
@@ -9,32 +10,58 @@
       $this.addClass('active');
       $content = $this.data('content');
       $content.parent().find('> li').hide();
-      return $content.show();
+      $content.show();
+      if ($this.data('fragment')) {
+        return window.location.hash = $this.data('fragment');
+      }
     };
-    createTab = function($el) {
+    createTab = function($el, clickable) {
       var $el_li, $ul, el_minHeight, li_width;
+      if (clickable == null) clickable = true;
       $el.addClass('tablist-content');
       $ul = $('<ul>').addClass('tablist');
       $el_li = $el.find('> li');
       li_width = $el.parent().width() / $el_li.length;
       el_minHeight = 0;
       $el_li.each(function(index) {
-        var $li, $this, $title;
+        var $li, $this, $title, fragment;
         $this = $(this);
         $title = $this.find('blockquote > h1').remove();
         $li = $('<li>').append($title.contents());
         $ul.append($li.css({
           width: li_width
         }));
+        fragment = $title.attr('data-url');
+        if (fragment) {
+          $li.data('fragment', "#" + fragment);
+          fragments["#" + fragment] = $li;
+        }
         $li.data('content', $this);
-        $li.click(onItemClick);
+        if (clickable) $li.addClass('clickable');
+        $li.data('clickFunction', onItemClick);
+        if (clickable && !fragment) $li.click(onItemClick);
+        if (clickable && fragment) {
+          $li.click(function() {
+            return window.location.hash = fragment;
+          });
+        }
         $this.hide();
         if (index === 0) return $li.click();
       });
       return $el.before($ul);
     };
-    return $('#equipe > ul:first , #principios > ul,\n#parceiros-financeiros > ul, #parceiros-divulgacao > ul, #parceiros-tecnicos > ul,\n#metodologia-cenario > ul').each(function() {
+    $(window).bind('hashchange', function() {
+      var $li, clickFunction, fragment;
+      fragment = window.location.hash;
+      $li = fragments[fragment];
+      clickFunction = $li.data('clickFunction');
+      return clickFunction.apply($li);
+    });
+    $('#equipe > ul:first, #parceiros-financeiros > ul, #metodologia-cenario > ul').each(function() {
       return createTab($(this));
+    });
+    return $('#principios > ul, #parceiros-divulgacao > ul, #parceiros-tecnicos > ul').each(function() {
+      return createTab($(this), false);
     });
   });
 

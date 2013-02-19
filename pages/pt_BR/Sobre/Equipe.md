@@ -8,7 +8,7 @@ Equipe
 
 A equipe atual do IT3S conta com os seguintes profissionais:
 
- * > ![][dani] Daniela Mattern
+ * > ![][dani] Daniela Mattern {: data-url='Daniela_Mattern'}
    > =========================
    > Coordenação Geral
    > -----------------
@@ -16,7 +16,7 @@ A equipe atual do IT3S conta com os seguintes profissionais:
    >
    > [Perfil no MootiroMaps][maps_dani]{: target=_blank}
 
- * > ![][olga] Olga Fallmeier
+ * > ![][olga] Olga Fallmeier {: data-url='Olga_Fallmeier'}
    > ========================
    > Qualificação de Dados e Importação
    > ----------------------------------
@@ -24,13 +24,13 @@ A equipe atual do IT3S conta com os seguintes profissionais:
    >
    > [Perfil no MootiroMaps][maps_olga]{: target=_blank}
 
- * > ![][clari] Clariane Santos
+ * > ![][clari] Clariane Santos {: data-url='Clariane_Santos'}
    > ==========================
    > Clariane é educadora popular infantil. No IT3S é articuladora de comunidades e organizações interessadas em mapeamentos e melhorias para o local. Possui varias experiências com tecnologias (entre elas, Wiki, MootiroMaps, GoogleRefine, GoogleDocs), aprimorando seus conhecimentos para a qualificação de dados. No IT3S colabora com a coordenação dos projetos Heliópolis Bairro Educador, que visa melhorar a comunicação entre escolas e comunidade e na conquista de mais projetos e estruturas educacionais, Heliópolis Verde, um projeto que pretende trabalhar o meio ambiente na comunidade interagindo grupos de dentro ou fora da comunidade. Também contribui com a administração do Instituto.
    >
    > [Perfil no MootiroMaps][maps_clari]{: target=_blank}
 
- * > ![][aimee] Aimeê Ferreira
+ * > ![][aimee] Aimeê Ferreira {: data-url='Aimee_Ferreira'}
    > =========================
    > Análise de Requisitos, Design e Usabilidade
    > -------------------------------------------
@@ -38,7 +38,7 @@ A equipe atual do IT3S conta com os seguintes profissionais:
    >
    > [Perfil no MootiroMaps][maps_aimee]{: target=_blank}
 
- * > ![][andre] André Casimiro
+ * > ![][andre] André Casimiro {: data-url='Andre_Casimiro'}
    > =========================
    > Desenvolvedor
    > -------------
@@ -46,7 +46,7 @@ A equipe atual do IT3S conta com os seguintes profissionais:
    >
    > [Perfil no MootiroMaps][maps_andre]{: target=_blank}
 
- * > ![][luiz] Luiz Armesto
+ * > ![][luiz] Luiz Armesto {: data-url='Luiz_Armesto'}
    > ======================
    > Desenvolvedor
    > -------------
@@ -54,7 +54,7 @@ A equipe atual do IT3S conta com os seguintes profissionais:
    >
    > [Perfil no MootiroMaps][maps_luiz]{: target=_blank}
 
- * > ![][anderson] Anderson Cardoso
+ * > ![][anderson] Anderson Cardoso {: data-url='Anderson_Cardoso'}
    > ==============================
    > Gestor da equipe de desenvolvimento
    > -----------------------------------
