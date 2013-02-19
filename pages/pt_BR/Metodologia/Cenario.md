@@ -6,7 +6,7 @@ id: metodologia-cenario
 Cenário
 =======
 
- * > ![][tec] Tecnologia
+ * > ![][tec] Tecnologia {: data-url='Tecnologia'}
    > ===================
    >
    > ![][georef]{: #georef}
@@ -72,7 +72,7 @@ Cenário
    >   * [Geocoding and Data Visualization](http://www.developmentgateway.org/Services/Geocoding-and-Data-Visualization). Consultado em 30/01/2013.
 
 
- * > ![][legais] Mudanças legais
+ * > ![][legais] Mudanças legais {: data-url="Mudancas_legais"}
    > ===========================
    >
    > ![][marco]{: #marco}
@@ -166,7 +166,7 @@ Cenário
    >   * [Projeto de Lei para criação do Plano Nacional de Educação 2011-2020](https://docs.google.com/file/d/0B3rk-EAaU7q6TUotVG04aEJzV3c/edit),2010
    >   * [Rede Nacional Primeira Infância: Plano Nacional da Primeira Infância](https://docs.google.com/file/d/0B2lufbSI1kMEVF9CNjVWUzJNZDA/edit). 2010.
 
- * > ![][socio] Sociedade
+ * > ![][socio] Sociedade {: data-url="Sociedade"}
    > ====================
    >
    > ![][rede]{: #rede}

@@ -35,6 +35,7 @@
         if (fragment) {
           $li.data('fragment', "#" + fragment);
           fragments["#" + fragment] = $li;
+          if (index === 0) fragments[''] = $li;
         }
         $li.data('content', $this);
         if (clickable) $li.addClass('clickable');
@@ -45,8 +46,7 @@
             return window.location.hash = fragment;
           });
         }
-        $this.hide();
-        if (index === 0) return $li.click();
+        return $this.hide();
       });
       return $el.before($ul);
     };
@@ -60,9 +60,10 @@
     $('#equipe > ul:first, #parceiros-financeiros > ul, #metodologia-cenario > ul').each(function() {
       return createTab($(this));
     });
-    return $('#principios > ul, #parceiros-divulgacao > ul, #parceiros-tecnicos > ul').each(function() {
+    $('#principios > ul, #parceiros-divulgacao > ul, #parceiros-tecnicos > ul').each(function() {
       return createTab($(this), false);
     });
+    return $(window).trigger('hashchange');
   });
 
 }).call(this);

@@ -37,6 +37,8 @@ $ ->
       if fragment
         $li.data('fragment', "##{fragment}")
         fragments["##{fragment}"] = $li
+        # Set first item as default
+        fragments[''] = $li if index is 0
       # Set reference to the original item
       $li.data('content', $this)
       $li.addClass 'clickable' if clickable
@@ -50,8 +52,6 @@ $ ->
       #$el.css('min-height', (if el_minHeight > this_height then el_minHeight else this_height))
       # Hide the original item
       $this.hide()
-      # Start showing the first item
-      $li.click() if index is 0
 
     #$el.css('min-height', el_minHeight + 35)
     $el.before $ul
@@ -62,10 +62,11 @@ $ ->
     clickFunction = $li.data('clickFunction')
     clickFunction.apply($li)
 
-
   $('''#equipe > ul:first, #parceiros-financeiros > ul, #metodologia-cenario > ul''').each () ->
     createTab($(this))
 
   $('''#principios > ul, #parceiros-divulgacao > ul, #parceiros-tecnicos > ul''').each () ->
     createTab($(this), false)
+
+  $(window).trigger 'hashchange'
 
