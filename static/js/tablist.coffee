@@ -46,7 +46,7 @@ $ ->
     $el.before $ul
 
 
-  $('''#equipe > ul, #principios > ul,
+  $('''#equipe > ul:first , #principios > ul,
     #parceiros-financeiros > ul, #parceiros-divulgacao > ul, #parceiros-tecnicos > ul,
     #metodologia-cenario > ul''').each () ->
     createTab($(this));

@@ -1,7 +1,7 @@
 title: Valores e princípios
 date: 2013-02-07
 id: principios
-pos: 2
+pos: 3
 
 Valores e princípios
 ====================

@@ -33,7 +33,7 @@
       });
       return $el.before($ul);
     };
-    return $('#equipe > ul, #principios > ul,\n#parceiros-financeiros > ul, #parceiros-divulgacao > ul, #parceiros-tecnicos > ul,\n#metodologia-cenario > ul').each(function() {
+    return $('#equipe > ul:first , #principios > ul,\n#parceiros-financeiros > ul, #parceiros-divulgacao > ul, #parceiros-tecnicos > ul,\n#metodologia-cenario > ul').each(function() {
       return createTab($(this));
     });
   });
