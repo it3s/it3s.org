@@ -68,3 +68,4 @@ $ ->
 
   $('''#principios > ul, #parceiros-divulgacao > ul, #parceiros-tecnicos > ul''').each () ->
     createTab($(this), false)
+

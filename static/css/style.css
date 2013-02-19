@@ -220,6 +220,53 @@ footer.main .supporters ul .acesso-informacao {
   margin-left: 150px;
 }
 /*
+ * Slidesshow
+ * ----------
+ */
+.flexslider {
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+}
+.flexslider ul.slides blockquote {
+  margin: 0px;
+}
+.flexslider ul.slides img {
+  width: auto;
+  float: left;
+  margin-right: 20px;
+}
+/* Direction Nav */
+.flex-direction-nav a {
+  width: 32px;
+  height: 54px;
+  margin: -20px 0 0;
+}
+.flex-direction-nav .flex-next {
+  background: url(../images/slides/next.png);
+  right: 270px;
+}
+.flex-direction-nav .flex-next:hover {
+  background: url(../images/slides/next-hover.png);
+}
+.flex-direction-nav .flex-prev {
+  background: url(../images/slides/prev.png);
+  left: -36px;
+}
+.flex-direction-nav .flex-prev:hover {
+  background: url(../images/slides/prev-hover.png);
+}
+.flexslider:hover .flex-next {
+  opacity: 1;
+  right: 311px;
+}
+.flexslider:hover .flex-prev {
+  opacity: 1;
+  left: 5px;
+}
+/*
  * Pages
  * -----
  */

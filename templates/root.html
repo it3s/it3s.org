@@ -1,5 +1,12 @@
 {% extends "base.html" %}
 
 {% block content %}
-teste
+<div class="flexslider">
+  {{ page }}
+</div>
+
+<script>
+  $('.flexslider > ul:first').addClass('slides');
+  $('.flexslider').flexslider({animation: 'slide'}).flexslider('pause');
+</script>
 {% endblock content %}
