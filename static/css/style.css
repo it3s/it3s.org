@@ -105,6 +105,9 @@ header.main nav.main > ul > li ul.submenu > li {
   margin: 0px;
   padding: 0px;
 }
+header.main nav.main > ul > li ul.submenu > li.hidden {
+  display: none;
+}
 header.main nav.main > ul > li ul.submenu > li:first-child {
   margin: 10px 0px 0px;
 }
@@ -221,6 +224,7 @@ footer.main .supporters ul .acesso-informacao {
  * -----
  */
 section.main.content {
+  zoom: 1;
   /*
      * Sobre
      * -----
@@ -258,9 +262,32 @@ section.main.content {
 
   /*
      * Parcerias > Parceiros tecnicos
-     * -----------------------------------
+     * ------------------------------
      */
 
+  /*
+     * Metodologia > Cenario
+     * ---------------------
+     */
+
+  /*
+     * Metodologia > Objetivo
+     * ----------------------
+     */
+
+  /*
+     * Colabore > Doações
+     * ------------------
+     */
+
+}
+section.main.content:before,
+section.main.content:after {
+  content: "";
+  display: table;
+}
+section.main.content:after {
+  clear: both;
 }
 section.main.content#sobre > p.content {
   margin-bottom: 70px;
@@ -386,4 +413,70 @@ section.main.content#parceiros-divulgacao .destaque {
 }
 section.main.content#parceiros-tecnicos .destaque {
   width: 70%;
+}
+section.main.content#metodologia-cenario ul.tablist-content > li > blockquote {
+  column-count: 1;
+  -moz-column-count: 1;
+  -webkit-column-count: 1;
+}
+section.main.content#metodologia-cenario ul.tablist-content > li > blockquote h2 {
+  font-size: 1.4em;
+  margin-top: 30px;
+}
+section.main.content#metodologia-cenario ul.tablist-content > li > blockquote img#georef {
+  float: right;
+  margin: 230px 20px;
+}
+section.main.content#metodologia-cenario ul.tablist-content > li > blockquote img#colab {
+  float: left;
+  margin: 210px 50px;
+}
+section.main.content#metodologia-cenario ul.tablist-content > li > blockquote img#bigdata {
+  float: right;
+  margin: 130px 20px;
+}
+section.main.content#metodologia-cenario ul.tablist-content > li > blockquote img#marco {
+  float: right;
+  margin: 210px 20px;
+}
+section.main.content#metodologia-cenario ul.tablist-content > li > blockquote img#dados {
+  float: left;
+  margin: 220px 50px;
+}
+section.main.content#metodologia-cenario ul.tablist-content > li > blockquote img#acesso {
+  float: right;
+  margin: 210px 20px;
+}
+section.main.content#metodologia-cenario ul.tablist-content > li > blockquote img#legis {
+  float: left;
+  margin: 380px 50px;
+}
+section.main.content#metodologia-cenario ul.tablist-content > li > blockquote img#rede {
+  float: right;
+  margin: 190px 20px;
+}
+section.main.content#metodologia-cenario ul.tablist-content > li > blockquote img#incidencia {
+  float: left;
+  margin: 150px 50px;
+}
+section.main.content#metodologia-objetivos img#objetivo {
+  float: left;
+  margin: 40px 50px;
+}
+section.main.content#colabore-doacoes #conta {
+  width: 45%;
+  float: left;
+}
+section.main.content#colabore-doacoes #paypal,
+section.main.content#colabore-doacoes #equipamentos {
+  width: 27%;
+  float: left;
+}
+section.main.content#colabore-doacoes #conta td {
+  vertical-align: top;
+}
+section.main.content#colabore-doacoes #conta td:first-child {
+  width: 110px;
+  text-align: right;
+  font-weight: bold;
 }

@@ -33,20 +33,21 @@ $ ->
       $li.data('content', $this)
       # Bind the click event to display the original item
       $li.click onItemClick
-      # Stop footer dance
-      el_minHeight = parseInt($el.css('min-height'), 10) or 0
-      this_height = $this.height()
-      $el.css('min-height', (if el_minHeight > this_height then el_minHeight else this_height))
+      ## Stop footer dance
+      #el_minHeight = parseInt($el.css('min-height'), 10) or 0
+      #this_height = $this.height()
+      #$el.css('min-height', (if el_minHeight > this_height then el_minHeight else this_height))
       # Hide the original item
       $this.hide()
       # Start showing the first item
       $li.click() if index is 0
 
-    $el.css('min-height', el_minHeight + 35)
+    #$el.css('min-height', el_minHeight + 35)
     $el.before $ul
 
 
   $('''#equipe > ul, #principios > ul,
-    #parceiros-financeiros > ul, #parceiros-divulgacao > ul, #parceiros-tecnicos > ul''').each () ->
+    #parceiros-financeiros > ul, #parceiros-divulgacao > ul, #parceiros-tecnicos > ul,
+    #metodologia-cenario > ul''').each () ->
     createTab($(this));
 

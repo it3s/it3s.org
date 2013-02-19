@@ -112,6 +112,10 @@ header.main {
                         margin: 0px;
                         padding: 0px;
 
+                        &.hidden {
+                            display: none;
+                        }
+
                         &:first-child {
                             margin: 10px 0px 0px;
                         }
@@ -265,6 +269,7 @@ footer.main {
  */
 
 section.main.content {
+    .clearfix;
 
     /*
      * Sobre
@@ -468,11 +473,114 @@ section.main.content {
 
     /*
      * Parcerias > Parceiros tecnicos
-     * -----------------------------------
+     * ------------------------------
      */
      &#parceiros-tecnicos {
          .destaque {
             width: 70%;
          }
      }
+
+    /*
+     * Metodologia > Cenario
+     * ---------------------
+     */
+     &#metodologia-cenario {
+        ul.tablist-content {
+            > li {
+                > blockquote {
+                    column-count: 1;
+                    -moz-column-count: 1;
+                    -webkit-column-count: 1;
+
+                    h2 {
+                        font-size: 1.4em;
+                        margin-top: 30px;
+                    }
+
+                    img#georef {
+                        float: right;
+                        margin: 230px 20px;
+                    }
+
+                    img#colab {
+                        float: left;
+                        margin: 210px 50px;
+                    }
+
+                    img#bigdata {
+                        float: right;
+                        margin: 130px 20px;
+                    }
+
+                    img#marco {
+                        float: right;
+                        margin: 210px 20px;
+                    }
+
+                    img#dados {
+                        float: left;
+                        margin: 220px 50px;
+                    }
+
+                    img#acesso {
+                        float: right;
+                        margin: 210px 20px;
+                    }
+
+                    img#legis {
+                        float: left;
+                        margin: 380px 50px;
+                    }
+
+                    img#rede {
+                        float: right;
+                        margin: 190px 20px;
+                    }
+
+                    img#incidencia {
+                        float: left;
+                        margin: 150px 50px;
+                    }
+                }
+            }
+        }
+     }
+
+    /*
+     * Metodologia > Objetivo
+     * ----------------------
+     */
+     &#metodologia-objetivos {
+         img#objetivo {
+            float: left;
+            margin: 40px 50px;
+         }
+     }
+
+    /*
+     * Colabore > Doações
+     * ------------------
+     */
+     &#colabore-doacoes {
+         #conta {
+            width: 45%;
+            float: left;
+         }
+         #paypal,
+         #equipamentos {
+            width: 27%;
+            float: left;
+         }
+         #conta td {
+            vertical-align: top;
+
+            &:first-child {
+                width: 110px;
+                text-align: right;
+                font-weight: bold;
+            }
+         }
+     }
+
 }

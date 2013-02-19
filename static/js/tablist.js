@@ -19,7 +19,7 @@
       li_width = $el.parent().width() / $el_li.length;
       el_minHeight = 0;
       $el_li.each(function(index) {
-        var $li, $this, $title, this_height;
+        var $li, $this, $title;
         $this = $(this);
         $title = $this.find('blockquote > h1').remove();
         $li = $('<li>').append($title.contents());
@@ -28,16 +28,12 @@
         }));
         $li.data('content', $this);
         $li.click(onItemClick);
-        el_minHeight = parseInt($el.css('min-height'), 10) || 0;
-        this_height = $this.height();
-        $el.css('min-height', (el_minHeight > this_height ? el_minHeight : this_height));
         $this.hide();
         if (index === 0) return $li.click();
       });
-      $el.css('min-height', el_minHeight + 35);
       return $el.before($ul);
     };
-    return $('#equipe > ul, #principios > ul,\n#parceiros-financeiros > ul, #parceiros-divulgacao > ul, #parceiros-tecnicos > ul').each(function() {
+    return $('#equipe > ul, #principios > ul,\n#parceiros-financeiros > ul, #parceiros-divulgacao > ul, #parceiros-tecnicos > ul,\n#metodologia-cenario > ul').each(function() {
       return createTab($(this));
     });
   });
