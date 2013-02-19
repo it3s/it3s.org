@@ -260,10 +260,14 @@ footer.main .supporters ul .acesso-informacao {
 }
 .flexslider:hover .flex-next {
   opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: autolpha(opacity=100);
   right: 311px;
 }
 .flexslider:hover .flex-prev {
   opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: autolpha(opacity=100);
   left: 5px;
 }
 /*
@@ -403,6 +407,8 @@ section.main.content > ul.tablist > li > p > img {
 }
 section.main.content > ul.tablist > li.clickable > img {
   opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: autolpha(opacity=50);
   position: relative;
 }
 section.main.content > ul.tablist > li.clickable.active,
@@ -412,6 +418,8 @@ section.main.content > ul.tablist > li.clickable:hover {
 section.main.content > ul.tablist > li.clickable.active > img,
 section.main.content > ul.tablist > li.clickable:hover > img {
   opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  ter: autolpha(opacity=100);
 }
 section.main.content ul.tablist-content > li > blockquote {
   font-size: 0.9em;
@@ -428,6 +436,8 @@ section.main.content#principios > ul > li {
 }
 section.main.content#equipe > ul.tablist > li > img {
   opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: autolpha(opacity=50);
   position: relative;
   left: -3px;
 }
@@ -438,6 +448,8 @@ section.main.content#equipe > ul.tablist > li:hover {
 section.main.content#equipe > ul.tablist > li.active > img,
 section.main.content#equipe > ul.tablist > li:hover > img {
   opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: autolpha(opacity=100);
 }
 section.main.content#equipe > ul.tablist > li:last-child > img {
   left: -10px;
