@@ -59,6 +59,7 @@ $ ->
   $(window).bind 'hashchange', ->
     fragment = window.location.hash
     $li = fragments[fragment]
+    return if not $li
     clickFunction = $li.data('clickFunction')
     clickFunction.apply($li)
 

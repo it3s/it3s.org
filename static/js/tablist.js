@@ -54,6 +54,7 @@
       var $li, clickFunction, fragment;
       fragment = window.location.hash;
       $li = fragments[fragment];
+      if (!$li) return;
       clickFunction = $li.data('clickFunction');
       return clickFunction.apply($li);
     });

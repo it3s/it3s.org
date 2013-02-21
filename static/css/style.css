@@ -525,12 +525,26 @@ section.main.content#metodologia-objetivos img#objetivo {
   margin: 40px 50px;
 }
 section.main.content#colabore-doacoes #conta {
-  width: 45%;
+  width: 40%;
+  float: left;
+  border: solid 3px #8296a2;
+  border-radius: 10px;
+  padding: 0 10px 10px;
+}
+section.main.content#colabore-doacoes #paypal {
+  padding: 0 20px;
+  width: 30%;
   float: left;
 }
-section.main.content#colabore-doacoes #paypal,
+section.main.content#colabore-doacoes #paypal img:first-child {
+  float: left;
+  margin: 35% 20px 0 0;
+}
+section.main.content#colabore-doacoes #paypal form {
+  margin: 35% 20px 0 0;
+}
 section.main.content#colabore-doacoes #equipamentos {
-  width: 27%;
+  width: 30%;
   float: left;
 }
 section.main.content#colabore-doacoes #conta td {
