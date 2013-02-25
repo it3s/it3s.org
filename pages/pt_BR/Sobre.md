@@ -21,7 +21,7 @@ Entre as finalidades estatutárias estão os seguintes itens:
   2. Promover a educação informal, capacitação, formação e mobilização social;
   3. Promover o protagonismo juvenil orientado para a valorização da autoestima e inserção socioprofissional;
   4. Servir de canal de oportunidade para o desenvolvimento local e humano;
-  5. Firmar parcerias com movimentos populares e grupos sociais na garantia dos seus direitos assegurados na Constituição Federal, Estatuto da Criança e do/da Adolescente e demais normas jurídicas afins;
+  5. Firmar parcerias com movimentos populares e grupos sociais na garantia dos seus direitos assegurados na Constituição Federal, Estatuto da Criança e do Adolescente e demais normas jurídicas afins;
   6. Produzir, sistematizar, analisar e divulgar estudos e pesquisas, bem como elaborar projetos e desenvolver programas e ações relacionados às suas áreas de atuação;
   7. Influenciar na definição, implementação, monitoramento e controle social de políticas públicas;
   8. Atuar junto a organizações sociais e comunidades de baixa renda nos municípios e em quaisquer localidades do território nacional, através de projetos de desenvolvimento social, tecnológico, educacional e de fomento de políticas culturais e sociais visando à geração de novos empreendimentos e desenvolvimento sustentável;
@@ -53,6 +53,5 @@ Hoje o IT3S conta com uma [equipe](/Sobre/Equipe) de 10 pessoas, sendo três des
 Registros
 ---------
 
-Cadastro Nacional de Pessoas Jurídicas (CNPJ): 12.031.458/0001-97
-
-Cadastro de Contribuintes Mobiliários (CCM): 4.304.291-0
+  * Cadastro Nacional de Pessoas Jurídicas (CNPJ): 12.031.458/0001-97
+  * Cadastro de Contribuintes Mobiliários (CCM): 4.304.291-0

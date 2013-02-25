@@ -28,6 +28,7 @@
         $this = $(this);
         $title = $this.find('blockquote > h1').remove();
         $li = $('<li>').append($title.contents());
+        $li.attr('id', $title.attr('id'));
         $ul.append($li.css({
           width: li_width
         }));
@@ -58,10 +59,10 @@
       clickFunction = $li.data('clickFunction');
       return clickFunction.apply($li);
     });
-    $('#equipe > ul:first, #parceiros-financeiros > ul, #metodologia-cenario > ul').each(function() {
+    $("#equipe > ul:first, #parceiros-financeiros > ul, #metodologia-cenario > ul").each(function() {
       return createTab($(this));
     });
-    $('#principios > ul, #parceiros-divulgacao > ul, #parceiros-tecnicos > ul').each(function() {
+    $("#principios > ul, #parceiros-divulgacao > ul, #parceiros-tecnicos > ul").each(function() {
       return createTab($(this), false);
     });
     return $(window).trigger('hashchange');

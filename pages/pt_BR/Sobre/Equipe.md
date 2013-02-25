@@ -62,7 +62,7 @@ A equipe atual do IT3S conta com os seguintes profissionais:
    >
    > [Perfil no MootiroMaps][maps_anderson]{: target=_blank}
 
-
+<!--
 Pessoas que contribuiram
 -------------------------
 
@@ -98,7 +98,7 @@ Participação: mai a jul/2012
 ### Mahmoud
 
 ### Anda
-
+//-->
 
 [dani]:     /static/images/sobre/equipe/dani.png
 [olga]:     /static/images/sobre/equipe/olga.png

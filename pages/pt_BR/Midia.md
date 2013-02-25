@@ -13,14 +13,14 @@ Vídeos
 
 11/12/2012 - Entrevista sobre dados abertos e transparência no programa Clique Ligue - TVT
 
-  * Parte 1: <http://tvt.vflow.tv/home/tvt/video/11798/clique-ligue-partido-pirata-13>
-  * Parte 2: <http://tvt.webtv.digitalsk.com.br/home/tvt/video/11797/clique-ligue-partido-pirata-23>
-  * Parte 3: <http://tvt.webtv.digitalsk.com.br/home/tvt/video/11796/clique-ligue-partido-pirata-33>
+  * Parte 1: <http://tvt.vflow.tv/home/tvt/video/11798/clique-ligue-partido-pirata-13>{: target=_blank}
+  * Parte 2: <http://tvt.webtv.digitalsk.com.br/home/tvt/video/11797/clique-ligue-partido-pirata-23>{: target=_blank}
+  * Parte 3: <http://tvt.webtv.digitalsk.com.br/home/tvt/video/11796/clique-ligue-partido-pirata-33>{: target=_blank}
 
 
 14/11/2012 - Sites colaborativos são aliados de moradores de áreas carentes - TVBrasil
 
-  * <http://tvbrasil.ebc.com.br/reporterbrasil/video/33431/>
+  * <http://tvbrasil.ebc.com.br/reporterbrasil/video/33431/>{: target=_blank}
 
 
 Reportagens

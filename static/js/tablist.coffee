@@ -30,6 +30,7 @@ $ ->
       $title = $this.find('blockquote > h1').remove()
       # Create the new list item with the header from original list item
       $li = $('<li>').append $title.contents()
+      $li.attr('id', $title.attr('id'))
       # Set the correct width to all items be inline
       $ul.append $li.css(width: li_width)
       # Use url fragment
@@ -63,10 +64,10 @@ $ ->
     clickFunction = $li.data('clickFunction')
     clickFunction.apply($li)
 
-  $('''#equipe > ul:first, #parceiros-financeiros > ul, #metodologia-cenario > ul''').each () ->
+  $("#equipe > ul:first, #parceiros-financeiros > ul, #metodologia-cenario > ul").each () ->
     createTab($(this))
 
-  $('''#principios > ul, #parceiros-divulgacao > ul, #parceiros-tecnicos > ul''').each () ->
+  $("#principios > ul, #parceiros-divulgacao > ul, #parceiros-tecnicos > ul").each () ->
     createTab($(this), false)
 
   $(window).trigger 'hashchange'

@@ -28,7 +28,7 @@ Objetivos para 2013
   * Produzir conhecimento e notícias sobre mapeamento, controle social e dados abertos.
   * Divulgar amplamente o mapa para aumentar a base de usuários.
   * Criar indicadores de uso do MootiroMaps e das ações de divulgação a fim de avaliar regular e sistematicamente os resultados de nossos projetos.
-  * Qualificar e disponibilizar permanentemente dados públicos no [datahub do projeto](http://dados.mootiro.org)
+  * Qualificar e disponibilizar permanentemente dados públicos no [datahub do projeto](http://dados.mootiro.org){: target=_blank}
 
 Para saber mais sobre os objetivos para 2013, acesse o planejamento estratégico do IT3S.
 

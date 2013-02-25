@@ -4,5 +4,5 @@ date: 2013-02-07
 Movimentos que integramos
 =========================
 
- * [Transparência Hacker](http://thacker.com.br/)
- * [Open Knowledge Foundation - Movimento Brasileiro](http://br.okfn.org/)
+ * [Transparência Hacker](http://thacker.com.br/){: target=_blank}
+ * [Open Knowledge Foundation - Movimento Brasileiro](http://br.okfn.org/){: target=_blank}

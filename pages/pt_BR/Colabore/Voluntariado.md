@@ -7,7 +7,7 @@ Voluntariado
 ============
 
 Acreditamos na colaboração e no trabalho coletivo para a realização de nossas iniciativas.
-Envie um email para contato@it3s.org para saber como participar voluntariamente.
+Envie um email para <contato@it3s.org> para saber como participar voluntariamente.
 
 Campos em que necessitamos colaboração voluntária:
 

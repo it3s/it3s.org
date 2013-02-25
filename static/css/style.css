@@ -194,7 +194,7 @@ footer.main .contact .email {
 }
 footer.main .supporters {
   display: inline-block;
-  width: 500px;
+  width: 420px;
 }
 footer.main .supporters a {
   text-decoration: none;
@@ -218,6 +218,11 @@ footer.main .supporters ul .instituto-cea {
 }
 footer.main .supporters ul .acesso-informacao {
   margin-left: 150px;
+}
+footer.main .social-media {
+  display: inline-block;
+  width: 130px;
+  padding: 50px 0 0 10px;
 }
 /*
  * Slidesshow

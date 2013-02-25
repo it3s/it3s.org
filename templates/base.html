@@ -17,9 +17,24 @@
     <script src="{{ url_for('static', filename='lib/jquery.flexslider-min.js') }}"></script>
     <title>IT3S - {{ page.title or gettext('Instituto de Fomento à Tecnologia do Terceiro Setor') }}</title>
 
+    <meta property="og:title" content="IT3S" />
+    <meta property="og:type" content="non_profit" />
+    <meta property="og:url" content="http://www.it3s.org/" />
+    <meta property="og:image" content="http://www.it3s.org/images/logo.png" />
+    <meta property="og:site_name" content="Instituto de Fomento &#xe0; Tecnologia do Terceiro Setor" />
+    <meta property="fb:app_id" content="566736346679304" />
+
   </head>
 
   <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=566736346679304";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- HEADER -->
     {% include('header.html') %}

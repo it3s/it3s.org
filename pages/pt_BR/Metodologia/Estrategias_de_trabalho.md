@@ -9,17 +9,19 @@ Estratégias de trabalho
 O IT3S atua por meio de parcerias.
 Colaboramos com os projetos de nossos parceiros de diversas maneiras:
 
-  * Apoio à execução de projetos de parceiros
-  * Qualificação de dados
-  * Desenvolvimento do MootiroMaps
-  * Sistematização de conhecimentos
-  * Eventos de integração
-  * Comunicação
+  * [Apoio à execução de projetos de parceiros](#Apoio_a_execucao_de_projetos)
+  * [Qualificação de dados](#Qualificacao_de_dados)
+  * [Desenvolvimento do MootiroMaps](#Desenvolvimento)
+  * [Sistematização de conhecimentos](#Sistematizacao_de_conhecimentos)
+  * [Eventos de integração](#Eventos)
+  * [Comunicação](#Comunicacao)
 
+<!--
 Você também pode se tornar nosso parceiro? Veja aqui como pode participar!
 {: .destaque}
+	//-->
 
-Apoio à execução de projetos de parceiros
+Apoio à execução de projetos de parceiros{: #Apoio_a_execucao_de_projetos}
 -----------------------------------------
 
 Ajudamos a planejar o projeto e acompanhamos todas as fases da execução.
@@ -54,7 +56,7 @@ Os projetos que são desenvolvidos com o MootiroMaps costumam pertencer a uma da
   >
   > _Por quê?_ Para facilitar a leitura e análise dos dados e gerar mapas que podem ser utilizados em notícias ou reivindicações junto ao poder público.
 
-Leia mais sobre essas possibilidades de uso do mapeamento no MootiroMaps. (link para os casos de uso no MootiroMaps: o conteúdo estático do Maps está aqui)
+Leia mais sobre essas [possibilidades de uso do mapeamento no MootiroMaps](http://maps.mootiro.org/use_cases){: target=_blank}.
 
 ### Fases de desenvolvimento da parceria
 
@@ -71,58 +73,56 @@ Geralmente, apoiamos os projetos de nossos parceiros seguindo estes passos:
 
 Em uma primeira conversa por skype ou pessoalmente, tentamos entender a demanda do projeto. Levantamos, por exemplo, qual o objetivo do mapeamento, quais os dados já existentes e onde o mapa será utilizado depois (site, publicações etc).
 
-Incentivamos o parceiro a mapear sua organização e informar sobre objetivos institucionais e projetos que desenvolve. Assim, podemos entender melhor o funcionamento da organização e entender melhor os vínculos entre o mapa que será construído e outros trabalhos da organização, o que pode gerar sinergias. Por outro lado, julgamos importante nossos parceiros conhecerem bem o funcionamento do mapa e terem suas organizações na plataforma. No final desse passo definimos um termo de parceria (link para um termo exemplar no GoogleDocs) entre as duas organizações.
+Incentivamos o parceiro a mapear sua organização e informar sobre objetivos institucionais e projetos que desenvolve. Assim, podemos entender melhor o funcionamento da organização e entender melhor os vínculos entre o mapa que será construído e outros trabalhos da organização, o que pode gerar sinergias. Por outro lado, julgamos importante nossos parceiros conhecerem bem o funcionamento do mapa e terem suas organizações na plataforma. No final desse passo definimos um termo de parceria entre as duas organizações.
 
 ### Atividades preparatórias
 
 Para estabelecermos uma dinâmica com os nossos parceiros, trabalhar a distância e reduzir o retrabalho ao longo do projeto são essenciais algumas atividades preparatórias:
 
   * __Criação do projeto na aba do projetos do MootiroMaps__
-   > No MootiroMaps podem ser criados projetos de mapeamento (link para http://maps.mootiro.org/project/) que possibilitam selecionar conteúdos específicos e visualizá-los no mapa. Também é possível dar visibilidade para os parceiros e financiadores do mapeamento, carregando suas logos. O projeto no MootiroMaps também pode servir de inspiração para outros usuários que queiram desenvolver um trabalho parecido.
+   > No MootiroMaps podem ser criados [projetos de mapeamento](http://maps.mootiro.org/project/){: target=_blank} que possibilitam selecionar conteúdos específicos e visualizá-los no mapa. Também é possível dar visibilidade para os parceiros e financiadores do mapeamento, carregando suas logos. O projeto no MootiroMaps também pode servir de inspiração para outros usuários que queiram desenvolver um trabalho parecido.
   * __Mapeamento exemplar__
   > Para entender a qualidade das informações a serem visualizadas no mapa e decidir como usar os campos de conteúdo que o MootiroMaps oferece é importante realizarmos um mapeamento exemplar dos principais tipos de informação. Com base nesse mapeamento-piloto definimos o que chamamos de templates de importação, ou seja, a estrutura dos dados a serem visualizados no mapa.
   * __Análise dos dados disponíveis e definição das estratégias de trabalho__
-  > Analisamos os dados já disponíveis - tanto dados públicos como dados já coletados pelo parceiro. Dependendo dessa análise são definidas as estratégias de trabalho que podem envolver ações como pedidos de informação pública (link para nossa wiki), mutirões de mapeamento in loco com GPS (link para a wiki), pesquisa online, reuniões com moradores, importação de dados (link para a wiki), publicações e/ou eventos de apresentação dos mapas.
+  > Analisamos os dados já disponíveis - tanto dados públicos como dados já coletados pelo parceiro. Dependendo dessa análise são definidas as estratégias de trabalho que podem envolver ações como pedidos de informação pública, mutirões de mapeamento in loco com GPS, pesquisa online, reuniões com moradores, importação de dados, publicações e/ou eventos de apresentação dos mapas.
 
 ### Elaboração do plano de trabalho
 
 Junto com o parceiro elaboramos um plano de trabalho que contém as etapas e atividades a serem desenvolvidas ao longo do projeto. Elaboramos um cronograma, definimos as responsabilidades das partes e os produtos que queremos gerar.
 
-Veja um exemplo aqui. (linkar para o plano de trabalho com o CEDAPS)
-
 ### Formação da equipe do parceiro
 
 Ministramos várias formações para os parceiros sobre temáticas como:
 
-  * Lei de Acesso à Informação e pedidos de informação pública (link para wiki)
-  * Qualificação de dados com Google Spreadsheet, Open Refine e Fusion Table (link para wiki)
-  * Mapeamento com GPS (link para wiki)
-  * Mapeamento com MootiroMaps (link para wiki)
-  * Análise de dados e criação de relatórios (link para wiki)
-  * Trabalho colaborativo com as ferramentas da Google (Google Docs, Drive, Hangout, GTalk) (link para wiki)
-  * Sistematização de conhecimentos e metodologias com Wikis (link para wiki)
-  * Uso do datahub para publicação e armazenamento de dados públicos (link para wiki)
-  * Oficinas para moradores da comunidade e jovens (link para wiki)
+  * Lei de Acesso à Informação e pedidos de informação pública
+  * Qualificação de dados com Google Spreadsheet, Open Refine e Fusion Table
+  * Mapeamento com GPS
+  * Mapeamento com MootiroMaps
+  * Análise de dados e criação de relatórios
+  * Trabalho colaborativo com as ferramentas da Google (Google Docs, Drive, Hangout, GTalk)
+  * Sistematização de conhecimentos e metodologias com Wikis
+  * Uso do datahub para publicação e armazenamento de dados públicos
+  * Oficinas para moradores da comunidade e jovens
 
-Qualificação de dados e alimentação do mapa
+Qualificação de dados e alimentação do mapa{: #Qualificacao_de_dados}
 -------------------------------------------
 
-O MootiroMaps facilita a qualificação colaborativa de dados usando Google Spreadsheet e Fusion Table (link para wiki). Nessa fase do projeto estamos organizando as informações de várias fontes para poder importá-las para o MootiroMaps. Quando não houver dados geográficos, após importação precisamos identificar a localização dos pontos e mapeá-los manualmente.
+O MootiroMaps facilita a qualificação colaborativa de dados usando Google Spreadsheet e Fusion Table. Nessa fase do projeto estamos organizando as informações de várias fontes para poder importá-las para o MootiroMaps. Quando não houver dados geográficos, após importação precisamos identificar a localização dos pontos e mapeá-los manualmente.
 
 Uma vez importado os dados podem ser modificados e mais informações podem ser acrescentadas sempre que for necessário.
 
-Comunicação do projeto e ampliação da rede de mapeadores
+### Comunicação do projeto e ampliação da rede de mapeadores
 Quando uma primeira versão do mapa ficar pronta é importante comunicarmos sobre o uso do mapa. Realizamos um encontro para definir o plano de divulgação e formação de multiplicadores. Algumas ações que normalmente fazem parte do plano de comunicação:
 Inserção de uma seção sobre o mapa no site institucional do parceiro ou hotsite do projeto;
-Divulgação sobre o projeto no blogue do parceiro, do [MootiroMaps](http://maps.mootiro.org) bem como nas redes sociais;
+Divulgação sobre o projeto no blogue do parceiro, do [MootiroMaps](http://maps.mootiro.org){: target=_blank} bem como nas redes sociais;
 Divulgação do mapa em eventos do parceiro e organização de oficinas de formação de mais mapeadores;
 Elaboração de um manual de uso e material de formação de multiplicadores.
 
-Para saber mais sobre nossa metodologias com parceiros, [clique aqui.](https://docs.google.com/document/d/1tmX1RdG3X7fu0-iDN0uKcEuJkApIGPbTX0MkLpEw3DI/edit#)
+Para saber mais sobre nossa metodologias com parceiros, [clique aqui](https://docs.google.com/document/d/1tmX1RdG3X7fu0-iDN0uKcEuJkApIGPbTX0MkLpEw3DI/edit#){: target=_blank}.
 {: .destaque}
 
 
-Qualificação de dados
+### Qualificação de dados
 Ajudamos a encontrar as fontes de dados e pensamos junto com os parceiros os
 processos de qualificação dos dados.
 
@@ -131,7 +131,7 @@ processos de qualificação dos dados.
   3. Servidor de dados - dados.mootiro.org
   4. Manuais e vídeos de ajuda
 
-Eventos de integração
+Eventos de integração{: #Eventos}
 ---------------------
 
   1. Buscamos promover a troca de experiências entre os parceiros.
@@ -141,12 +141,12 @@ Eventos de integração
   5. Projetos colaborativos de mapeamento
 
 
-Comunicação
+Comunicação{: #Comunicacao}
 -----------
 
 Utilizamos várias estratégias para comunicar e promover a visibilidade de nossas parcerias:
 
-  1. Divulgação das experiências no site institucional (link para Parcerias)
+  1. [Divulgação das experiências no site institucional](/Parcerias)
   > Publicizamos o objeto de nossas parcerias e os respectivos parceiros, fundamentados na transparência e no fortalecimento mútuo.
 
   2. Redes sociais
@@ -154,13 +154,13 @@ Utilizamos várias estratégias para comunicar e promover a visibilidade de noss
   >
   > Acompanhe:
   >
-  >  * [Facebook](http://www.facebook.com/IT3S.org)
-  >  * [Twitter](https://twitter.com/IT3S)
+  >  * [Facebook](http://www.facebook.com/IT3S.org){: target=_blank}
+  >  * [Twitter](https://twitter.com/IT3S){: target=_blank}
 
   3. Blogue do Mootiro
   > O blogue do Mootiro é o local onde publicamos análises de situações e problemáticas relacionadas diretamente ao mapeamento, controle social, abertura de dados e desenvolvimento social. Os posts, por vezes embasados no jornalismo de dados, são escritos por colaboradores da equipe e parceiros.
   >
-  > [Acesse aqui](http://blog.mootiro.org/)
+  > [Acesse aqui](http://blog.mootiro.org/){: target=_blank}
 
   4. Publicações em jornais e vídeos
   > Entrevistas cedidas por representantes da equipe IT3S/MootiroMaps e participações em programas são oportunidades para abordarmos projetos e alianças.
@@ -170,10 +170,10 @@ Utilizamos várias estratégias para comunicar e promover a visibilidade de noss
   5. Participação de eventos
   > Participamos de espaços de discussão e eventos sempre com o interesse de compartilhar nossa expertise.
   >
-  > Veja os relatos dos eventos dos quais já participamos em nossa wiki. (definir link na wiki)
+  > Veja os relatos dos eventos dos quais já participamos em nossa wiki.
 
 
-Sistematização de conhecimentos
+Sistematização de conhecimentos{: #Sistematizacao_de_conhecimentos}
 -------------------------------
 
 Incentivamos os parceiros a documentarem a metodologia de mapeamento e a forma
@@ -184,7 +184,7 @@ como conseguiram obter acesso à informação.
   3. Práticas do trabalho comunitário
   4. Ideias para oficinas com mapeamento
 
-Desenvolvimento do MootiroMaps
+Desenvolvimento do MootiroMaps{: #Desenvolvimento}
 ------------------------------
 
 Levantamos junto a comunidade necessidades de aprimoramento da ferramenta para

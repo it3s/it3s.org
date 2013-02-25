@@ -14,7 +14,7 @@ Desenvolvimento de funcionalidades no Maps
 Muitas vezes uma organização precisa de uma funcionalidade específica que o MootiroMaps ainda não suporta. Implementações na ferramenta podem ser financiadas para atender a esse tipo de demanda, e ficarão disponíveis para servir a projetos de outros usuários, aumentando assim o seu impacto.
 
 Exemplo:
-Auçuba/Conanda (link para Auçuba dentro de Parcerias)
+[Auçuba/Conanda](/Parcerias/Parceiros_financeiros/#Aucuba_CONANDA)
 
 Assessoria pra planejar projetos de mapeamento
 ----------------------------------------------
@@ -45,7 +45,7 @@ Podem ser utilizadas diversas estratégias para a realização do diagnóstico, 
   * pesquisa online
 
 Exemplo:
-Cenpec (projeto Territórios da Juventude) (link para Cenpec dentro de Parcerias)
+[Cenpec (projeto Territórios da Juventude)](/Parcerias/Parceiros_financeiros/#CENPEC)
 
 Oficinas referente a tecnologias web e colaborativas
 ----------------------------------------------------
@@ -54,30 +54,30 @@ Ministramos oficinas referente à tecnologias web e colaborativas. O domínio de
 
 Ofrecemos formações em:
 
-  * Gerenciamento de projetos usando Redmine (link para a nossa wiki) ou Trello (link para a nossa wiki)
-  * Gerencimento de contatos com CiviCRM (link para a nossa wiki)
-  * Gestão de conhecimentos com Mediawiki (link para a nossa wiki)
-  * Trabalho colaborativo com Google Docs (link para a nossa wiki)
-  * Uso de Gmail (link para a nossa wiki), GTalk (link para a nossa wiki), Google Agenda (link para a nossa wiki) e Hangout (link para a nossa wiki) para aumentar os resultados de sua equipe
-  * Gerenciamento de documentos com Google Drive (link para a nossa wiki) e Drop Box (link para a nossa wiki)
-  * Redes Sociais (Facebook (link para a nossa wiki), Twitter (link para a nossa wiki)) e Sistemas para Gerenciamento de Conteúdos de Sites (Wordpress (link para a nossa wiki), Drupal (link para a nossa wiki))
-  * Gerenciamento de programas educacionais com formulários (link para a nossa wiki) e planilhas colaborativas (link para a nossa wiki)
-  * Análise do impacto de seu site ou blogue usando Google Analytics (link para a nossa wiki)
-  * Gerencisamento de campanhas com Facebook (link para a nossa wiki) e Google Ad Words (link para a nossa wiki)
+  * Gerenciamento de projetos usando Redmine ou Trello
+  * Gerencimento de contatos com CiviCRM
+  * Gestão de conhecimentos com Mediawiki
+  * Trabalho colaborativo com Google Docs
+  * Uso de Gmail, GTalk, Google Agenda e Hangout para aumentar os resultados de sua equipe
+  * Gerenciamento de documentos com Google Drive e DropBox
+  * Redes Sociais (Facebook, Twitter) e Sistemas para Gerenciamento de Conteúdos de Sites (Wordpress, Drupal)
+  * Gerenciamento de programas educacionais com formulários e planilhas colaborativas
+  * Análise do impacto de seu site ou blogue usando Google Analytics
+  * Gerencisamento de campanhas com Facebook e Google Ad Words
 
 Assessoramos sua organização referente à escolha de um software ou fornecedor de tecnologia. Também acompanhamos sua organização na implementação de um novo software e na criação de uma cultura digital.
 
 Assessoria referente à Lei de Acesso à Informação
 -------------------------------------------------
 
-Assessoramos prefeituras, instituições públicas e organizações de sociedade civil que queiram se adequar à Lei de Acesso à Informação (Lei 12.527) (link para a nossa wiki).
+Assessoramos prefeituras, instituições públicas e organizações de sociedade civil que queiram se adequar à Lei de Acesso à Informação (Lei 12.527).
 Para isso, oferecemos:
 
   * palestras e apresentações sobre as implicações da Lei de Acesso à Informação para sua organização
-  * avaliação da qualidade do serviço de informação ao cidadão (link para a nossa wiki) oferecido por sua organização e apresentação de sugestões de melhoria
-  * instalação de um servidor de dados (ckan) (link para a nossa wiki) para responder à transparência ativa (link para a nossa wiki), ou seja à demanda de amplamente divulgar dados de sua organização
-  * disponibilização de um serviço (alavatelli) (link para a nossa wiki) que facilita a resposta a pedidos de informação e o atendimento das necessidades da transparência passiva ((link para a nossa wiki)
-  * organização de dados para que possam ser publicados em formatos eletrônicos e abertos (link para a nossa wiki)
+  * avaliação da qualidade do serviço de informação ao cidadão oferecido por sua organização e apresentação de sugestões de melhoria
+  * instalação de um servidor de dados (ckan) para responder à transparência ativa, ou seja à demanda de amplamente divulgar dados de sua organização
+  * disponibilização de um serviço (alavatelli) que facilita a resposta a pedidos de informação e o atendimento das necessidades da transparência passiva
+  * organização de dados para que possam ser publicados em formatos eletrônicos e abertos
 
 
 Gestão de conhecimentos
@@ -101,7 +101,7 @@ O diferencial de nossa abordagem é que informações serão publicadas em nosso
 
 
 Exemplo:
-Cenpec (projeto Territórios da Juventude) (link para Cenpec dentro de Parcerias)
+[Cenpec (projeto Territórios da Juventude)](/Parcerias/Parceiros_financeiros/#CENPEC)
 
 Qualificação de dados
 ---------------------
@@ -114,8 +114,8 @@ Prestamos serviços referente à qualificação de dados como:
   * indexação dos dados com palavras-chave;
   * conferência de dados por meio de pesquisas na internet e por telefone.
 
- Trabalhamos com informações já coletadas pelas entidades ou disponibilizadas pelo poder público. Esses dados podem ser usados pelas organizações em projetos de mapeamentos, diagnósticos e avaliação. Os dados serão disponibilizados em formatos abertos como planilhas ou .csv.
+Trabalhamos com informações já coletadas pelas entidades ou disponibilizadas pelo poder público. Esses dados podem ser usados pelas organizações em projetos de mapeamentos, diagnósticos e avaliação. Os dados serão disponibilizados em formatos abertos como planilhas ou .csv.
 
- Exemplo:
- Cenpec (projeto Educação para uma São Paulo:  uma cidade sustentável) (link para Cenpec dentro de Parcerias)
+Exemplo:
+[Cenpec (projeto Educação para uma São Paulo:  uma cidade sustentável)](/Parcerias/Parceiros_financeiros/#CENPEC)
 

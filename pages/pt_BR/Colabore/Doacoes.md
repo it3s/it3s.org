@@ -6,7 +6,7 @@ pos: 0
 Doações
 =======
 
-Pessoas e organizações podem ajudar a melhorar cada vez mais o [MootiroMaps](http://maps.mootiro.org/) e a fortalecer as ações do IT3S através de doações em dinheiro ou de equipamentos.
+Pessoas e organizações podem ajudar a melhorar cada vez mais o [MootiroMaps](http://maps.mootiro.org/){: target=_blank} e a fortalecer as ações do IT3S através de doações em dinheiro ou de equipamentos.
 
 Mais informações pelo [contato@it3s.org](mailto:contato@it3s.org).
 

@@ -10,14 +10,14 @@ Parceiros financeiros
 Você quer apoiar os projetos do IT3S? [Torne-se nosso doador!](/Colabore/Doacoes)
 {: .destaque}
 
- * > ![][icea] Instituto C&A {: data-url='Instituto_CeA'}
+ * > ![][icea] Instituto C&A {: data-url='Instituto_CeA' #Instituto_CeA}
    > =======================
    > Projeto: Comunidade de Práticas MootiroMaps
    > -------------------------------------------
    > O projeto apoia o desenvolvimento tecnológico da plataforma MootiroMaps
    > e sua experimentação na comunidade Heliópolis. Especificamente estamos
    > analisando como o MootiroMaps pode ajudar os movimento
-   > [Heliópolis Verde](http://maps.mootiro.org/resource/334){: traget=_blank},
+   > [Heliópolis Verde](http://maps.mootiro.org/resource/334){: target=_blank},
    > que visa a conscientização ambiental dos moradores da comunidade, e o
    > projeto [Heliópolis Bairro Educador](http://maps.mootiro.org/project/22){: target=_blank},
    > que prevê a aproximação entre a comunidade e as escolas em seu entorno.
@@ -25,8 +25,8 @@ Você quer apoiar os projetos do IT3S? [Torne-se nosso doador!](/Colabore/Doacoe
    > Resultados esperados:
    >
    > * Implementação de funcionalidades de acordo com as necessidades dos usuários
-   > * Sistematização da metodologia de implementação do MootiroMaps junto a [comunidades populares](???)
-   > * Implementação do MootiroMaps junto aos moradores da comunidade [Heliópolis](http://maps.mootiro.org/community/163/about)
+   > * Sistematização da metodologia de implementação do MootiroMaps junto a comunidades populares
+   > * Implementação do MootiroMaps junto aos moradores da comunidade [Heliópolis](http://maps.mootiro.org/community/163/about){: target=_blank}
    > * Fomento à troca de experiências entre a comunidade de usuários do MootiroMaps
    >
    > __Prazo de desenvolvimento da parceria:__ maio de 2012 a fevereiro de 2013
@@ -35,16 +35,16 @@ Você quer apoiar os projetos do IT3S? [Torne-se nosso doador!](/Colabore/Doacoe
    >
    > __Documentos relacionados:__
    >
-   >  * [Formulário de apresentação de projeto](https://docs.google.com/document/d/1f_mbH9jiLrop-hB-Ab6E_uTyGlPXpFgctZNdQ5_H3Ns/edit), [plano de ações](https://docs.google.com/file/d/1HBRgEcQeLQnogPos-ffMOqKdZAWTdcY9CcvyUGTNW859mkV5R-KiEVSS1HBd/edit) e [orçamento inicial](https://docs.google.com/file/d/1aAe0n-TcVhNvb32D2Dgso_ciZT2KeioVajHBN1ZjfazoBfSBaWRA3OQ9Sshm/edit)
+   >  * [Formulário de apresentação de projeto](https://docs.google.com/document/d/1f_mbH9jiLrop-hB-Ab6E_uTyGlPXpFgctZNdQ5_H3Ns/edit){: target=_blank}, [plano de ações](https://docs.google.com/file/d/1HBRgEcQeLQnogPos-ffMOqKdZAWTdcY9CcvyUGTNW859mkV5R-KiEVSS1HBd/edit){: target=_blank} e [orçamento inicial](https://docs.google.com/file/d/1aAe0n-TcVhNvb32D2Dgso_ciZT2KeioVajHBN1ZjfazoBfSBaWRA3OQ9Sshm/edit){: target=_blank}
    >  * Contrato de parceria
-   >  * [1º relatório intermediário (agosto de 2012)](https://docs.google.com/document/d/1F80XdgxkX2vINe7yGZaCiS7gNHQVnTvB6PhTSN5bHlo/edit)
-   >  * [2º relatório intermediário (janeiro de 2013)](https://docs.google.com/document/d/1aWZC8FVDri2LrNk-VKPG16RoFOUpEmLD3be6NE_2a5c/edit)
+   >  * [1º relatório intermediário (agosto de 2012)](https://docs.google.com/document/d/1F80XdgxkX2vINe7yGZaCiS7gNHQVnTvB6PhTSN5bHlo/edit){: target=_blank}
+   >  * [2º relatório intermediário (janeiro de 2013)](https://docs.google.com/document/d/1aWZC8FVDri2LrNk-VKPG16RoFOUpEmLD3be6NE_2a5c/edit){: target=_blank}
 
 
- * > ![][cenpec] CENPEC {: data-url='CENPEC'}
+ * > ![][cenpec] CENPEC {: data-url='CENPEC' #CENPEC}
    > ==================
-   > ##Projetos: [Territórios da Juventude Brasilândia](http://maps.mootiro.org/project/35), [Capão Redondo](http://maps.mootiro.org/project/33), [Cidade Tiradentes](http://maps.mootiro.org/project/34)
-   > O [Programa Jovens Urbanos](http://maps.mootiro.org/resource/1187) é uma
+   > ##Projetos: [Territórios da Juventude Brasilândia](http://maps.mootiro.org/project/35){: target=_blank}, [Capão Redondo](http://maps.mootiro.org/project/33){: target=_blank}, [Cidade Tiradentes](http://maps.mootiro.org/project/34){: target=_blank}&nbsp;
+   > O [Programa Jovens Urbanos](http://maps.mootiro.org/resource/1187){: target=_blank} é uma
    > ação de educação integral voltada para o desenvolvimento de jovem. Busca
    > promover a participação dos jovens no território onde vivem, em espaços
    > de cultura, lazer, esporte, educação, de promoção a saúde, de atuação
@@ -58,12 +58,12 @@ Você quer apoiar os projetos do IT3S? [Torne-se nosso doador!](/Colabore/Doacoe
    > Resultados esperados:
    >
    >  * Realizar o mapeamento georreferenciado e online de três distritos - Capão Redondo e Cidade Tiradentes - da cidade de São Paulo
-   >  * Elaborar um [relatório de diagnóstico](https://docs.google.com/file/d/1xAB8H7dQozc0iYSeuk5N0frPXQpqESVEK9NoXjNJS6teZAklWtllBPf1xG0L/edit) sobre os três distritos;
+   >  * Elaborar um [relatório de diagnóstico](https://docs.google.com/file/d/1xAB8H7dQozc0iYSeuk5N0frPXQpqESVEK9NoXjNJS6teZAklWtllBPf1xG0L/edit){: target=_blank} sobre os três distritos;
    >  * Executar três exposições do trabalho de meio período contendo as respectivas relatorias;
    >  * Indicar 48 ONGs (16 por distrito) que poderão desenvolver o programa Jovens Urbanos nos respectivos territórios:
-   >      * [Prospecção ONGs Brasilândia](https://docs.google.com/file/d/1wlRqfawoRm9AmjVC-hmZWlSbSuIYcNurThMZ-HVQL19HpWS2YC7rYVzVLX6b/edit)
-   >      * [Prospecção ONGs Capão Redondo](https://docs.google.com/file/d/1g07vyV_rs7qchE05ls97WaYSBNibyHBmISCQmVKFiB2rVC9xinZHm2DojvpT/edit)
-   >      * [Prospecção ONGs Cidade Tiradentes](https://docs.google.com/file/d/1JFavugGYAhTdGRrt6S92xKXeABXMAKj4NE-Z3OlQKHp2Yl3c6bhUOCdxrN1f/edit)
+   >      * [Prospecção ONGs Brasilândia](https://docs.google.com/file/d/1wlRqfawoRm9AmjVC-hmZWlSbSuIYcNurThMZ-HVQL19HpWS2YC7rYVzVLX6b/edit){: target=_blank}
+   >      * [Prospecção ONGs Capão Redondo](https://docs.google.com/file/d/1g07vyV_rs7qchE05ls97WaYSBNibyHBmISCQmVKFiB2rVC9xinZHm2DojvpT/edit){: target=_blank}
+   >      * [Prospecção ONGs Cidade Tiradentes](https://docs.google.com/file/d/1JFavugGYAhTdGRrt6S92xKXeABXMAKj4NE-Z3OlQKHp2Yl3c6bhUOCdxrN1f/edit){: target=_blank}
    >
    > __Prazo de desenvolvimento da parceria:__ novembro de 2012 a março de 2013
    >
@@ -71,14 +71,14 @@ Você quer apoiar os projetos do IT3S? [Torne-se nosso doador!](/Colabore/Doacoe
    >
    > __Documentos relacionados:__
    >
-   >  * [Proposta final - Territórios da Juventude](https://docs.google.com/document/d/1TZoltnjPhpseON1GJid7rsfxTJNwHTzF1o6QElrNSt0/edit)
-   >  * [Cronograma físico-financeiro](https://docs.google.com/spreadsheet/ccc?key=0Anrk-EAaU7q6dHlmdVBhZGpSdW5Fbm1nTkdkQXg5T1E)
+   >  * [Proposta final - Territórios da Juventude](https://docs.google.com/document/d/1TZoltnjPhpseON1GJid7rsfxTJNwHTzF1o6QElrNSt0/edit){: target=_blank}
+   >  * [Cronograma físico-financeiro](https://docs.google.com/spreadsheet/ccc?key=0Anrk-EAaU7q6dHlmdVBhZGpSdW5Fbm1nTkdkQXg5T1E){: target=_blank}
    >  * Contrato de Prestação de Serviços
 
 
- * > ![][aucuba] Auçuba / CONANDA {: data-url='Aucuba_CONANDA'}
+ * > ![][aucuba] Auçuba / CONANDA {: data-url='Aucuba_CONANDA' #Aucuba_CONANDA}
    > ============================
-   > Projeto: [Rede de Conselhos](http://maps.mootiro.org/project/3)
+   > Projeto: [Rede de Conselhos](http://maps.mootiro.org/project/3){: target=_blank}&nbsp;
    > ---------------------------------------------------------------
    > O projeto tem o intuito de fomentar a interação entre conselheiros dos
    > Direitos da Criança e do Adolescente e conselheiros tutelares, além de
@@ -86,8 +86,8 @@ Você quer apoiar os projetos do IT3S? [Torne-se nosso doador!](/Colabore/Doacoe
    >
    > Resultados esperados:
    >
-   >  * Desenvolvimento da Aba de Projetos (link para http://maps.mootiro.org/project/) no MootiroMaps
-   >  * Desenvolvimento de um manual para a Rede de Conselhos (link para a wiki)
+   >  * Desenvolvimento da [Aba de Projetos](http://maps.mootiro.org/project/){: target=_blank} no MootiroMaps
+   >  * Desenvolvimento de um manual para a Rede de Conselhos
    >  * Importação de dados do site Direitos da Criança
    >  * Ações de disseminação da Rede de Conselhos
    >
