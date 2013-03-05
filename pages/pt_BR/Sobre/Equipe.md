@@ -26,6 +26,8 @@ A equipe atual do IT3S conta com os seguintes profissionais:
 
  * > ![][clari] Clariane Santos {: data-url='Clariane_Santos'}
    > ==========================
+   > Comunicação e gestão da comunidade de usuários
+   > ----------------------------------------------
    > Clariane é educadora popular infantil. No IT3S é articuladora de comunidades e organizações interessadas em mapeamentos e melhorias para o local. Possui varias experiências com tecnologias (entre elas, Wiki, MootiroMaps, GoogleRefine, GoogleDocs), aprimorando seus conhecimentos para a qualificação de dados. No IT3S colabora com a coordenação dos projetos Heliópolis Bairro Educador, que visa melhorar a comunicação entre escolas e comunidade e na conquista de mais projetos e estruturas educacionais, Heliópolis Verde, um projeto que pretende trabalhar o meio ambiente na comunidade interagindo grupos de dentro ou fora da comunidade. Também contribui com a administração do Instituto.
    >
    > [Perfil no MootiroMaps][maps_clari]{: target=_blank}
@@ -40,24 +42,24 @@ A equipe atual do IT3S conta com os seguintes profissionais:
 
  * > ![][andre] André Casimiro {: data-url='Andre_Casimiro'}
    > =========================
-   > Desenvolvedor
-   > -------------
+   > Desenvolvimento
+   > ---------------
    > Concluindo o curso de Bacharelado em Ciência da Computação pela  Universidade de São Paulo (IME-USP).Começou em desenvolvimento de websites estáticos como hobby em 2007. Trabalhou 2 anos para o Centro David Rockefeller da Universidade de Harvard em seu escritório no Brasil, adquiriu experiência nas tecnologias PHP, MySQL, Drupal, git, entre outras. Chegou a implantar o sistema que desenvolvia também no escritório do Chile. Hoje, possui já alguns anos de experiência em desenvolvimento web em diversas tecnologias.
    >
    > [Perfil no MootiroMaps][maps_andre]{: target=_blank}
 
  * > ![][luiz] Luiz Armesto {: data-url='Luiz_Armesto'}
    > ======================
-   > Desenvolvedor
-   > -------------
+   > Desenvolvimento
+   > ---------------
    > Cursa o Bacharelado em Ciência da Computação pela Universidade de São Paulo (IME-USP) e possui experiência no desenvolvimento de Aplicações Web, tendo participado de projetos junto à Universidade de São Paulo e à Secretaria da Educação do Estado de São Paulo, entre outros, desenvolvendo ambientes virtuais de aprendizagem e redes colaborativas. Se dedica à computação - de modo autodidata - há mais de 12 anos e é entusiasta do Software Livre. Faz parte da equipe de desenvolvedores do IT3S desde 2011 e participa atualmente do desenvolvimento do MootiroMaps.
    >
    > [Perfil no MootiroMaps][maps_luiz]{: target=_blank}
 
  * > ![][anderson] Anderson Cardoso {: data-url='Anderson_Cardoso'}
    > ==============================
-   > Gestor da equipe de desenvolvimento
-   > -----------------------------------
+   > Desenvolvimento
+   > ---------------
    > Atualmente cursa Engenharia de Computação na Escola Politécnica da USP, possui certificação profissional em Desenvolvimento Orientado a Objetos pelo Programa de Educação Continuada da Poli-USP. Anteriormente cursou Física e Engenharia Mecatrônica. É amplamente engajado no universo de Software Livre.
    >
    > [Perfil no MootiroMaps][maps_anderson]{: target=_blank}
