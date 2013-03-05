@@ -1,4 +1,4 @@
-title: Missão
+title: Visão e Missão
 date: 2013-02-07
 id: sobre
 pos: 2
