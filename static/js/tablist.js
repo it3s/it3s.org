@@ -11,6 +11,7 @@
       $content = $this.data('content');
       $content.parent().find('> li').hide();
       $content.show();
+      console.log('---->', window.location.hash, $this.data('fragment'));
       if ($this.data('fragment')) {
         return window.location.hash = $this.data('fragment');
       }
@@ -24,7 +25,7 @@
       li_width = $el.parent().width() / $el_li.length;
       el_minHeight = 0;
       $el_li.each(function(index) {
-        var $li, $this, $title, fragment;
+        var $li, $this, $title, dataUrl, fragment, _i, _len, _ref;
         $this = $(this);
         $title = $this.find('blockquote > h1').remove();
         $li = $('<li>').append($title.contents());
@@ -32,11 +33,15 @@
         $ul.append($li.css({
           width: li_width
         }));
-        fragment = $title.attr('data-url');
-        if (fragment) {
-          $li.data('fragment', "#" + fragment);
-          fragments["#" + fragment] = $li;
-          if (index === 0) fragments[''] = $li;
+        dataUrl = $title.attr('data-url');
+        _ref = dataUrl.split('|');
+        for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+          fragment = _ref[_i];
+          if (fragment) {
+            if (!$li.data('fragment')) $li.data('fragment', "#" + fragment);
+            fragments["#" + fragment] = $li;
+            if (index === 0) fragments[''] = $li;
+          }
         }
         $li.data('content', $this);
         if (clickable) $li.addClass('clickable');
@@ -44,7 +49,7 @@
         if (clickable && !fragment) $li.click(onItemClick);
         if (clickable && fragment) {
           $li.click(function() {
-            return window.location.hash = fragment;
+            return window.location.hash = $li.data('fragment');
           });
         }
         return $this.hide();

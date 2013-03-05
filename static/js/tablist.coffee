@@ -12,8 +12,9 @@ $ ->
     $content.parent().find('> li').hide()
     # Show the item content
     $content.show()
-    window.location.hash = $this.data('fragment') if $this.data('fragment')
-
+    console.log '---->', window.location.hash, $this.data('fragment')
+    if $this.data('fragment')
+      window.location.hash = $this.data('fragment')
 
   createTab = ($el, clickable=true) ->
     # Hide the original element
@@ -34,19 +35,20 @@ $ ->
       # Set the correct width to all items be inline
       $ul.append $li.css(width: li_width)
       # Use url fragment
-      fragment = $title.attr('data-url')
-      if fragment
-        $li.data('fragment', "##{fragment}")
-        fragments["##{fragment}"] = $li
-        # Set first item as default
-        fragments[''] = $li if index is 0
+      dataUrl = $title.attr('data-url')
+      for fragment in dataUrl.split('|')
+        if fragment
+          $li.data('fragment', "##{fragment}") if not $li.data('fragment')
+          fragments["##{fragment}"] = $li
+          # Set first item as default
+          fragments[''] = $li if index is 0
       # Set reference to the original item
       $li.data('content', $this)
       $li.addClass 'clickable' if clickable
       $li.data('clickFunction', onItemClick)
       # Bind the click event to display the original item
       $li.click onItemClick if clickable and not fragment
-      $li.click( -> window.location.hash = fragment ) if clickable and fragment
+      $li.click( -> window.location.hash = $li.data('fragment') ) if clickable and fragment
       ## Stop footer dance
       #el_minHeight = parseInt($el.css('min-height'), 10) or 0
       #this_height = $this.height()

@@ -6,12 +6,16 @@ id: metodologia-cenario
 Cenário
 =======
 
- * > ![][tec] Tecnologia {: data-url='Tecnologia'}
+ * > ![][tec] Tecnologia {: data-url='Tecnologia|Georreferenciamento|Tecnologias_colaborativas|Big_data'}
    > ===================
+   >
+   >  * [Georeferenciamento](#Georreferenciamento)
+   >  * [Tecnologias colaborativas](#Tecnologias_colaborativas)
+   >  * [Big data (qualificação e visualização de grandes volumes de dados)](#Big_data)
    >
    > ![][georef]{: #georef}
    >
-   > Georreferenciamento
+   > Georreferenciamento{: #Georreferenciamento}
    > -------------------
    >
    > ### Conceito
@@ -30,7 +34,7 @@ Cenário
    >
    > ![][colab]{: #colab}
    >
-   > Tecnologias colaborativas
+   > Tecnologias colaborativas{: #Tecnologias_colaborativas}
    > -------------------------
    >
    > ### Conceito
@@ -50,7 +54,7 @@ Cenário
    >
    > ![][bigdata]{: #bigdata}
    >
-   > Big data (qualificação e visualização de grandes volumes de dados)
+   > Big data (qualificação e visualização de grandes volumes de dados){: #Big_data}
    > ------------------------------------------------------------------
    >
    > ### Conceito
@@ -72,12 +76,18 @@ Cenário
    >   * [Geocoding and Data Visualization](http://www.developmentgateway.org/Services/Geocoding-and-Data-Visualization){: target=_blank}. Consultado em 30/01/2013.
 
 
- * > ![][legais] Mudanças legais {: data-url="Mudancas_legais"}
+ * > ![][legais] Mudanças legais {: data-url="Mudancas_legais|Marco_legal|Jornalismo_de_dados|Lei_de_acesso_a_informacao|Legislacoes_especificas"}
    > ===========================
+   >
+   >  * [Marco legal do Terceiro Setor](#Marco_legal)
+   >  * [Jornalismo de dados](#Jornalismo_de_dados)
+   >  * [Lei de acesso à informação](#Lei_de_acesso_a_informacao)
+   >  * [Legislações específicas que demandam diagnósticos de territórios](#Legislacoes_especificas)
+   >{: .content}
    >
    > ![][marco]{: #marco}
    >
-   > Marco legal do Terceiro Setor
+   > Marco legal do Terceiro Setor{: #Marco_legal}
    > -----------------------------
    >
    > ### Conceito
@@ -99,7 +109,7 @@ Cenário
    >
    > ![][dados]{: #dados}
    >
-   > Jornalismo de dados
+   > Jornalismo de dados{: #Jornalismo_de_dados}
    > -------------------
    >
    > ### Conceito
@@ -121,7 +131,7 @@ Cenário
    >
    > ![][acesso]{: #acesso}
    >
-   > Lei de acesso à informação
+   > Lei de acesso à informação{: #Lei_de_acesso_a_informacao}
    > --------------------------
    >
    > ### Conceito
@@ -141,7 +151,7 @@ Cenário
    >
    > ![][legis]{: #legis}
    >
-   > Legislações específicas que demandam diagnósticos de territórios
+   > Legislações específicas que demandam diagnósticos de territórios{: #Legislacoes_especificas}
    > ----------------------------------------------------------------
    > ### Conceito
    > Existem várias legislações no Brasil que, ou demandam um diagnóstico do território afim de priorizar a aplicação de fundos ou orçamentos públicos, ou requerem um monitoramento de uma legislação federal em nível estadual e municipal. Alguns exemplos:
@@ -166,12 +176,15 @@ Cenário
    >   * [Projeto de Lei para criação do Plano Nacional de Educação 2011-2020](https://docs.google.com/file/d/0B3rk-EAaU7q6TUotVG04aEJzV3c/edit){: target=_blank},2010
    >   * [Rede Nacional Primeira Infância: Plano Nacional da Primeira Infância](https://docs.google.com/file/d/0B2lufbSI1kMEVF9CNjVWUzJNZDA/edit){: target=_blank}. 2010.
 
- * > ![][socio] Sociedade {: data-url="Sociedade"}
+ * > ![][socio] Sociedade {: data-url="Sociedade|Pratica_de_trabalhar_em_rede|Incidencia_politica"}
    > ====================
+   >
+   >  * [Discussão sobre a prática de trabalhar em rede](#Pratica_de_trabalhar_em_rede)
+   >  * [Busca por maior incidência política](#Incidencia_politica)
    >
    > ![][rede]{: #rede}
    >
-   > Discussão sobre a prática de trabalhar em rede
+   > Discussão sobre a prática de trabalhar em rede{: #Pratica_de_trabalhar_em_rede}
    > ----------------------------------------------
    > ### Conceito
    > A atuação em rede, a partir da sociedade civil e dos movimentos sociais, se coloca como prática articulada de ação política que se propõe a causar um efeito de mudança e transformação numa dada realidade social.  A articulação em redes, seja de organizações da sociedade civil ou de coletivos comunitários, pressupõe objetivos comuns e identificação entre os atores envolvidos que se engajam voluntariamente em uma mesma causa. Daí o trabalho colaborativo gerar responsabilidades e conhecimentos compartilhados, distribuídos para cada nó da rede.
@@ -187,7 +200,7 @@ Cenário
    >
    > ![][incidencia]{: #incidencia}
    >
-   > Busca por maior incidência política
+   > Busca por maior incidência política{: #Incidencia_politica}
    > -----------------------------------
    >
    > ### Conceito
