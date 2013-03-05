@@ -35,7 +35,7 @@ $ ->
       # Set the correct width to all items be inline
       $ul.append $li.css(width: li_width)
       # Use url fragment
-      dataUrl = $title.attr('data-url')
+      dataUrl = $title.attr('data-url') ? ''
       for fragment in dataUrl.split('|')
         if fragment
           $li.data('fragment', "##{fragment}") if not $li.data('fragment')

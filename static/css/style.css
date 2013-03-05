@@ -360,7 +360,7 @@ section.main.content > ul.tablist,
 section.main.content > ul.tablist-content {
   zoom: 1;
   margin: 0px;
-  padding: 20px 0px 10px;
+  padding: 20px 0px 0px;
   list-style: none;
 }
 section.main.content > ul.tablist:before,
@@ -376,8 +376,10 @@ section.main.content > ul.tablist-content:after {
 }
 section.main.content > ul.tablist > li > blockquote,
 section.main.content > ul.tablist-content > li > blockquote {
+  background: #ededed;
   width: 900px;
   margin: 0px;
+  padding: 20px;
   text-align: left;
 }
 section.main.content .destaque {
@@ -390,7 +392,6 @@ section.main.content .destaque {
   font-weight: bold;
 }
 section.main.content > ul.tablist {
-  border-bottom: solid 2px #dcdcdc;
   font-family: Cambria, Georgia, serif;
 }
 section.main.content > ul.tablist > li {
@@ -411,9 +412,9 @@ section.main.content > ul.tablist > li > p > img {
   margin: 0px auto;
 }
 section.main.content > ul.tablist > li.clickable > img {
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
+  opacity: 0.4;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  filter: alpha(opacity=40);
   position: relative;
 }
 section.main.content > ul.tablist > li.clickable.active,
@@ -425,6 +426,20 @@ section.main.content > ul.tablist > li.clickable:hover > img {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   ter: alpha(opacity=100);
+}
+section.main.content > ul.tablist > li.clickable.active:after {
+  content: '';
+  display: block;
+  position: relative;
+  z-index: 2;
+  width: 0px;
+  height: 0px;
+  margin: 0px auto;
+  border: 10px solid transparent;
+  border-bottom-color: #ededed;
+}
+section.main.content ul.tablist-content {
+  padding-top: 0px;
 }
 section.main.content ul.tablist-content > li > blockquote {
   font-size: 0.9em;
@@ -440,9 +455,9 @@ section.main.content#principios > ul > li {
   width: 14.285714285714286%;
 }
 section.main.content#equipe > ul.tablist > li > img {
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
+  opacity: 0.4;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  filter: alpha(opacity=40);
   position: relative;
   left: -3px;
 }
@@ -487,10 +502,11 @@ section.main.content#metodologia-cenario ul.tablist-content > li > blockquote {
 }
 section.main.content#metodologia-cenario ul.tablist-content > li > blockquote > ul:first-child {
   display: inline-block;
-  background: #ededed;
+  background: #f6f6f6;
   list-style: none;
   padding: 10px;
   border-radius: 5px;
+  margin: 15px;
 }
 section.main.content#metodologia-cenario ul.tablist-content > li > blockquote h2 {
   font-size: 1.4em;
@@ -498,7 +514,7 @@ section.main.content#metodologia-cenario ul.tablist-content > li > blockquote h2
 }
 section.main.content#metodologia-cenario ul.tablist-content > li > blockquote img#georef {
   float: right;
-  margin: 230px 20px;
+  margin: 270px 20px;
 }
 section.main.content#metodologia-cenario ul.tablist-content > li > blockquote img#colab {
   float: left;
@@ -506,7 +522,7 @@ section.main.content#metodologia-cenario ul.tablist-content > li > blockquote im
 }
 section.main.content#metodologia-cenario ul.tablist-content > li > blockquote img#bigdata {
   float: right;
-  margin: 130px 20px;
+  margin: 150px 20px;
 }
 section.main.content#metodologia-cenario ul.tablist-content > li > blockquote img#marco {
   float: right;
@@ -522,7 +538,7 @@ section.main.content#metodologia-cenario ul.tablist-content > li > blockquote im
 }
 section.main.content#metodologia-cenario ul.tablist-content > li > blockquote img#legis {
   float: left;
-  margin: 380px 50px;
+  margin: 390px 50px;
 }
 section.main.content#metodologia-cenario ul.tablist-content > li > blockquote img#rede {
   float: right;

@@ -25,7 +25,7 @@
       li_width = $el.parent().width() / $el_li.length;
       el_minHeight = 0;
       $el_li.each(function(index) {
-        var $li, $this, $title, dataUrl, fragment, _i, _len, _ref;
+        var $li, $this, $title, dataUrl, fragment, _i, _len, _ref, _ref2;
         $this = $(this);
         $title = $this.find('blockquote > h1').remove();
         $li = $('<li>').append($title.contents());
@@ -33,10 +33,10 @@
         $ul.append($li.css({
           width: li_width
         }));
-        dataUrl = $title.attr('data-url');
-        _ref = dataUrl.split('|');
-        for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-          fragment = _ref[_i];
+        dataUrl = (_ref = $title.attr('data-url')) != null ? _ref : '';
+        _ref2 = dataUrl.split('|');
+        for (_i = 0, _len = _ref2.length; _i < _len; _i++) {
+          fragment = _ref2[_i];
           if (fragment) {
             if (!$li.data('fragment')) $li.data('fragment', "#" + fragment);
             fragments["#" + fragment] = $li;

@@ -370,13 +370,15 @@ section.main.content {
             .clearfix;
 
             margin: 0px;
-            padding: 20px 0px 10px;
+            padding: 20px 0px 0px;
             list-style: none;
 
             > li {
                 > blockquote {
+                    background: #ededed;
                     width: @site_width;
                     margin: 0px;
+                    padding: 20px;
                     text-align: left;
                 }
             }
@@ -393,7 +395,6 @@ section.main.content {
         }
 
         > ul.tablist {
-            border-bottom: solid 2px #dcdcdc;
             font-family: Cambria, Georgia, serif;
 
             > li {
@@ -421,9 +422,9 @@ section.main.content {
             & {
                 > li.clickable {
                     > img {
-                        opacity: 0.5;
-                        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-                        filter: alpha(opacity=50);
+                        opacity: 0.4;
+                        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+                        filter: alpha(opacity=40);
                         position: relative;
                     }
 
@@ -437,11 +438,25 @@ section.main.content {
                             ter: alpha(opacity=100);
                         }
                     }
+
+                    &.active:after {
+                        content: '';
+                        display: block;
+                        position: relative;
+                        z-index: 2;
+                        width: 0px;
+                        height: 0px;
+                        margin: 0px auto;
+                        border: 10px solid transparent;
+                        border-bottom-color: #ededed;
+                    }
                 }
             }
         }
 
         ul.tablist-content {
+            padding-top: 0px;
+
             > li {
                 > blockquote {
                     font-size: 0.9em;
@@ -481,9 +496,9 @@ section.main.content {
             &.tablist {
                 > li {
                     > img {
-                        opacity: 0.5;
-                        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-                        filter: alpha(opacity=50);
+                        opacity: 0.4;
+                        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+                        filter: alpha(opacity=40);
                         position: relative;
                         left: -3px;
                     }
@@ -574,10 +589,11 @@ section.main.content {
 
                     > ul:first-child {
                         display: inline-block;
-                        background: #ededed;
+                        background: #f6f6f6;
                         list-style: none;
                         padding: 10px;
                         border-radius: 5px;
+                        margin: 15px;
                     }
 
                     h2 {
@@ -587,7 +603,7 @@ section.main.content {
 
                     img#georef {
                         float: right;
-                        margin: 230px 20px;
+                        margin: 270px 20px;
                     }
 
                     img#colab {
@@ -597,7 +613,7 @@ section.main.content {
 
                     img#bigdata {
                         float: right;
-                        margin: 130px 20px;
+                        margin: 150px 20px;
                     }
 
                     img#marco {
@@ -617,7 +633,7 @@ section.main.content {
 
                     img#legis {
                         float: left;
-                        margin: 380px 50px;
+                        margin: 390px 50px;
                     }
 
                     img#rede {
